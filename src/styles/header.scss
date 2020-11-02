@@ -1,0 +1,377 @@
+@import 'styles';
+
+%catalog-underline {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: $gold;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.4s;
+}
+
+%menu-overline {
+  content: '';
+  position: absolute;
+    left: 0;
+    right: 0;
+    top: -2px;
+    width: 100%;
+    height: 3px;
+    background-color: $gold;
+    transition: 0.4s;
+}
+
+
+.header {
+  background-color: $main-color;
+
+  &__top-block {
+     padding: 30px 0;
+     display: flex;
+     align-items: center;
+  }
+
+  &__left-cell {
+    width: 25%;
+  }
+
+  &__right-cell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+  }
+
+  &__description {
+    max-width: 350px;
+    padding-left: 18px;
+    border-left: 1px solid $grey-text;
+  }
+
+  &__description-text {
+    color: $grey-text;
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+  }
+
+  &__email-link, &__phone-link {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  &__phone-link span:first-child {
+    color: $gold;
+  }
+
+  &__phone-link span:last-child {
+    color: white;
+  }
+
+  &__email-link {
+    color: $white;
+    font-weight: normal;
+  }
+
+  &__callback {
+    height: 100%;
+    border: 2px solid $gold;
+    border-radius: 25px;
+    padding: 10px 30px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    color: $white;
+    cursor: pointer;
+  }
+
+  &__callback:hover {
+    background-color: $gold;
+  }
+
+  &__bottom-block {
+    border-top: 1px solid $grey-text;
+  }
+
+  &__bottom-wrapper {
+    display: flex;
+    align-items: stretch;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  &__catalog {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    width: 20%;
+    padding: 25px 0;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1;
+
+    &:hover {
+      color: $gold;
+    }
+  }
+
+  &__catalog::before {
+    @extend %catalog-underline;
+    transform: scale(0);
+  }
+  
+  &__catalog_active::before {
+    @extend %catalog-underline;
+    transform: scale(1);
+  }
+  
+  &__catalog:hover &__catalog-icon::before,
+  &__catalog_active &__catalog-icon::before {
+    left: 0;
+  }  
+
+  &__catalog-menu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 100%;
+    color: $white;
+    background-color: $main-color;
+    transform: scaleX(0);
+    transition: 0.5s;
+  }
+  
+  &__catalog-item {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid $grey-text;
+    padding-left: 15px;
+    transition: 0.5s;
+  }
+
+  &__catalog_active &__catalog-menu {
+    transform: scaleX(1);
+  }
+
+  &__catalog-item:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: $gold;
+  }
+  
+  &__catalog-icon {
+    position: relative;
+    border-top: 2px solid $gold;
+    border-bottom: 2px solid $gold;
+    width: 30px;
+    height: 25px;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: calc(50% - 1px);
+      left: -10px;
+      width: 100%;
+      height: 2px;
+      background-color: $gold;
+      transition: 0.3s;
+    }
+    
+  }
+  &__catalog-text {
+    width: 100%;
+    text-align: center;
+  }
+  
+  &__menu {
+    width: 80%;
+  }
+  
+  &__menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  &__menu-item {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    align-self: stretch;
+    text-align: center;
+    padding: 28px 15px;
+    transition: 0.3s;
+
+    &:hover {
+      color: $gold;
+    }
+  }
+
+  &__menu-item::before {
+    @extend %menu-overline;
+    transform: scale(0);
+  }
+  
+  &__menu-item_active::before {
+    transform: scale(1);
+  }
+    
+    &__menu-burger {
+      display: none;
+      list-style: none;
+      width: 24px;
+      height: 24px;
+      border-top: 2px solid $white;
+      border-bottom: 2px solid $white;
+      cursor: pointer;
+      position: relative;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: $white;
+        left: 0;
+        right: 0;
+        top: calc(50% - 1px);
+      }
+    }
+    
+    &__phone-icon {
+      display: none;
+      background: url('../images/logo/phone-icon.png') no-repeat center / cover;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  
+  .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    min-width: 230px;
+    height: 60px;
+    cursor: pointer;
+    
+    &__img {
+    background: url('../images/logo/logo-image.jpg') no-repeat center / cover;
+    width: 23px;
+    height: 50px;
+  }
+
+  &__logo {
+    padding-left: 10px;
+  }
+
+  &__first-word, &__second-word{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  &__first-word {
+    color: $white;
+  }
+
+  &__second-word {
+    color: $gold;
+  }
+
+  &__description-text {
+    color: $grey-text;
+  }
+
+}
+
+@media all and (max-width: 1200px) {
+
+  .header__callback {
+    padding: 10px 10px;
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .header__menu-item {
+    display: none;
+  }
+
+  .header__menu-burger {
+    display: block;
+  }
+
+  .header__catalog {
+    width: 210px;
+  }
+
+  .header__menu {
+    width: 50px;
+  }
+
+  .header__bottom-wrapper {
+    justify-content: space-between;
+  }
+
+  .header__contacts {
+    width: 100%;
+  }
+
+  .header__right-cell,
+  .header__contacts {
+    justify-content: flex-end;
+  }
+
+  .header__contacts-wrapper {
+    margin-right: 15px;
+  }
+}
+
+@media all and (max-width: 920px) {
+  .header__description {
+    display: none;
+  }
+
+}
+
+@media all and (max-width: 600px) {
+  .header__callback {
+    display: none;
+  }
+
+  .header__contacts-wrapper {
+    margin-right: 0;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .header__contacts {
+    font-size: 13px;
+  }
+
+  .header__contacts-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header__phone-link,
+  .header__contacts-email {
+    display: none;
+  }
+
+  .header__phone-icon {
+    display: block;
+  }
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$roboto: Roboto;
+$main-color: rgba(30, 30, 48, 1);
+$white: rgb(255, 255, 255);
+$gold: rgb(255,140,0); 
+$grey-text: rgb(132, 132, 142);
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $roboto;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hide {
+  display: none;
+}

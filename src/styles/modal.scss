@@ -1,0 +1,305 @@
+@import 'styles';
+
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -10;
+  transition: 0.5s;
+  
+  &_active {
+    background-color: rgba(0,0,0,0.6);
+    z-index: 10;
+  }
+
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 270px;
+    height: 100vh;
+    background-color: $main-color;
+    transform: translateX(270px);
+    transition: 0.5s;
+  }
+
+  &__wrapper_active {
+    transform: translateX(0);
+  }
+
+  &__close {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 80px;
+  }
+
+  &__link {
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 25px;
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+
+    &:hover {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__link::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 1px);
+    width: 28px;
+    height: 3px;
+    background-color: $white;
+    transform: rotate(45deg);
+  }
+
+  &__link::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 1px);
+    display: inline-block;
+    width: 28px;
+    height: 3px;
+    background-color: $white;
+    transform: rotate(-45deg);
+  }
+
+  &__container {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+  }
+
+  &__item {
+    padding: 15px 0 15px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    list-style: none;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  &__item:last-child {
+    border-bottom: none;
+  }
+
+  &__item:hover {
+    background-color:  rgba(255, 255, 255, 0.2);
+  }
+}
+
+.callback-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+  transition: 0.5s;
+  
+  &_active {
+    z-index: 10;
+    background-color: rgba(0,0,0,0.6);
+  }
+
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 270px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    transform: translateX(270px);
+    transition: 0.5s;
+  }
+
+  &__wrapper_active {
+    transform: translateX(0);
+  }
+
+  &__close {
+    width: 100%;
+    height: 50px;
+    position: relative;
+  }
+
+  &__link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+
+    &:hover {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__link::before,
+  &__link::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 1px);
+    width: 25px;
+    height: 3px;
+    background-color: $white;
+  }
+  
+  &__link::before {
+    transform: rotate(45deg);
+  }
+
+  &__link::after {
+    transform: rotate(-45deg);
+  }
+
+  &__question,
+  &__help {
+    color: $white;
+    margin-bottom: 25px;
+  }
+
+  &__question {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  &__form {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(0,0,0);
+    border-radius: 10px;
+    color: $white;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    outline: none;
+  }
+
+  &__btn {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(30,144,255);
+    border-radius: 10px;
+    border: none;
+    color: $white;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+      background-color: $gold;
+    }
+  }
+
+  &__modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+    
+    &_active {
+      z-index: 11;
+    }
+  }
+
+  
+  &__modal-wrapper {
+    max-width: 500px;
+    width: 290px;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.8);
+    border: 1px solid $gold;
+    border-radius: 7px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -100%;
+    transition: 0.5s;
+
+    &_active {
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    
+  }
+  
+  &__modal-text {
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+    span {
+      color: $gold;
+    }
+  }
+
+  &__modal-button {
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: $gold;
+    outline: none;
+    color: $white;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+  }
+
+}
+
+.callback-btn {
+  position: fixed;
+  right: 0;
+  top: calc(50% - 32px);
+  width: 20px;
+  height: 75px;
+  background-color: rgba(192,192,192,0.6);
+  border-radius: 10px 0 0 10px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: rgba(192,192,192,1);
+  }
+
+  &__icon {
+    position: absolute;
+    top: calc(50% - 6px);
+    right: 0;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+    background: url('../images/modal/left.png') no-repeat center / cover;
+    z-index: 1;
+    position: relative;
+  }
+}
