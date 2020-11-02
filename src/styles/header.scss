@@ -106,6 +106,8 @@
     align-items: stretch;
     text-transform: uppercase;
     color: $white;
+    z-index: 2;
+    position: relative;
   }
 
   &__catalog {

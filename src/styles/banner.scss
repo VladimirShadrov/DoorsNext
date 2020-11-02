@@ -1,0 +1,189 @@
+@import 'styles';
+
+.banner {
+  background: url('../images/top-banner/banner-bg.jpg') no-repeat center / cover;
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(30, 30, 48, 0.95);
+  }
+  
+  &__top-block {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    min-height: 450px;
+  }
+
+  &__top-block-left {
+    max-width: 750px;
+    padding: 25px 20px 20px 0;
+  }
+
+  &__title-top {
+    color: $white;
+    font-size: 45px;
+  }
+
+  &__title-bottom {
+    color: $gold;
+    font-size: 45px;
+    margin-bottom: 35px;
+  }
+
+  &_info {
+    color: $white;
+    line-height: 1.5;
+    margin-bottom: 55px;
+    font-size: 20px;
+  }
+
+  &__to-catalog {
+    width: 210px;
+    padding: 15px;
+    color: $white;
+    border: none;
+    border-radius: 25px;
+    background-color: $gold;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 1px 0 $gold, 0 0px 60px 1px $gold;
+    display: block;
+    transition: 0.2s;
+
+    &:active {
+      box-shadow: 0 1px 0 $gold, 0 0px 30px 1px $gold;
+    }
+  }
+
+  &__top-block-right {
+    background: url('../images/top-banner/banner-main-img.jpg') no-repeat center / cover;
+    min-width: 400px;
+  }
+}
+
+.baner-bottom {
+  padding: 25px 0;
+  background-color: $main-color;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__item-banner {
+    width: calc(100% / 3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  &__img_1 {
+    background: url('../images/top-banner/truck_icon.png') no-repeat center / cover;
+  }
+
+  &__img_2 {
+    background: url('../images/top-banner/tools_icon.png') no-repeat center / cover;
+  }
+
+  &__img_3 {
+    background: url('../images/top-banner/guarantee-icon.png') no-repeat center / cover;
+  }
+
+  &__title {
+    text-align: center;
+    color: $white;
+    margin-bottom: auto;
+    font-size: 22px;
+  }
+
+  &__bottom-block-text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+  }
+
+}
+
+@media all and(max-width: 1070px) {
+  .banner__title-top,
+  .banner__title-bottom {
+    font-size: 40px;
+  }
+
+  .banner_info {
+    font-size: 18px;
+  }
+}
+
+@media all and(max-width: 950px) {
+  .banner__top-block-right {
+    display: none;
+  }
+
+  .banner__title-top,
+  .banner__title-bottom,
+  .banner_info {
+    text-align: center;
+  }
+
+  .banner__to-catalog {
+    margin: 0 auto;
+  }
+
+  .banner__top-block {
+    display: block;
+    min-height: 400px;
+    padding-bottom: 25px;
+  }
+
+  .banner__top-block-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media all and(max-width: 800px) {
+  .baner-bottom__item-banner {
+    width: 100%;
+  }
+}
+
+@media all and(max-width: 650px) {
+  .banner__title-top,
+  .banner__title-bottom {
+    font-size: 30px;
+  }
+
+  .banner__title-bottom {
+    margin-bottom: 20px;
+  }
+
+  .banner_info {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .banner__top-block {
+    padding-top: 15px;
+    min-height: 350px;
+  }
+}

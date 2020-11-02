@@ -75,7 +75,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/header.scss */ \"./styles/header.scss\");\n/* harmony import */ var _styles_modal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/modal.scss */ \"./styles/modal.scss\");\n/* harmony import */ var _header_menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./header/menu */ \"./js/header/menu.js\");\n/* harmony import */ var _callback_callback__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./callback/callback */ \"./js/callback/callback.js\");\n\n\n\n\n\nvar header = document.querySelector('.header');\nvar callbackPanel = document.querySelector('.callback-panel'); // Перенос изображений в папку \"dist\"\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\nvar menu = new _header_menu__WEBPACK_IMPORTED_MODULE_3__.Menu(header);\nvar callback = new _callback_callback__WEBPACK_IMPORTED_MODULE_4__.Callback(callbackPanel);\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/header.scss */ \"./styles/header.scss\");\n/* harmony import */ var _styles_modal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/modal.scss */ \"./styles/modal.scss\");\n/* harmony import */ var _styles_banner_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/banner.scss */ \"./styles/banner.scss\");\n/* harmony import */ var _header_menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./header/menu */ \"./js/header/menu.js\");\n/* harmony import */ var _callback_callback__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./callback/callback */ \"./js/callback/callback.js\");\n\n\n\n\n\n\nvar header = document.querySelector('.header');\nvar callbackPanel = document.querySelector('.callback-panel'); // Перенос изображений в папку \"dist\"\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\nvar menu = new _header_menu__WEBPACK_IMPORTED_MODULE_4__.Menu(header);\nvar callback = new _callback_callback__WEBPACK_IMPORTED_MODULE_5__.Callback(callbackPanel);\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 
@@ -4042,10 +4042,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./images/top-banner/top-banner-image.jpg":
-/*!************************************************!*\
-  !*** ./images/top-banner/top-banner-image.jpg ***!
-  \************************************************/
+/***/ "./images/top-banner/banner-bg.jpg":
+/*!*****************************************!*\
+  !*** ./images/top-banner/banner-bg.jpg ***!
+  \*****************************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */
@@ -4053,7 +4053,81 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/top-banner-image.jpg\");\n\n//# sourceURL=webpack:///./images/top-banner/top-banner-image.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/banner-bg.jpg\");\n\n//# sourceURL=webpack:///./images/top-banner/banner-bg.jpg?");
+
+/***/ }),
+
+/***/ "./images/top-banner/banner-main-img.jpg":
+/*!***********************************************!*\
+  !*** ./images/top-banner/banner-main-img.jpg ***!
+  \***********************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/banner-main-img.jpg\");\n\n//# sourceURL=webpack:///./images/top-banner/banner-main-img.jpg?");
+
+/***/ }),
+
+/***/ "./images/top-banner/guarantee-icon.png":
+/*!**********************************************!*\
+  !*** ./images/top-banner/guarantee-icon.png ***!
+  \**********************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/guarantee-icon.png\");\n\n//# sourceURL=webpack:///./images/top-banner/guarantee-icon.png?");
+
+/***/ }),
+
+/***/ "./images/top-banner/tools_icon.png":
+/*!******************************************!*\
+  !*** ./images/top-banner/tools_icon.png ***!
+  \******************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/tools_icon.png\");\n\n//# sourceURL=webpack:///./images/top-banner/tools_icon.png?");
+
+/***/ }),
+
+/***/ "./images/top-banner/truck_icon.png":
+/*!******************************************!*\
+  !*** ./images/top-banner/truck_icon.png ***!
+  \******************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/truck_icon.png\");\n\n//# sourceURL=webpack:///./images/top-banner/truck_icon.png?");
+
+/***/ }),
+
+/***/ "./styles/banner.scss":
+/*!****************************!*\
+  !*** ./styles/banner.scss ***!
+  \****************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./styles/banner.scss?");
 
 /***/ }),
 
@@ -4121,7 +4195,7 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /*! runtime requirements: module, __webpack_require__.o, __webpack_require__ */
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./logo/logo-image.jpg\": \"./images/logo/logo-image.jpg\",\n\t\"./logo/phone-icon.png\": \"./images/logo/phone-icon.png\",\n\t\"./modal/left.png\": \"./images/modal/left.png\",\n\t\"./top-banner/banner-background.jpg\": \"./images/top-banner/banner-background.jpg\",\n\t\"./top-banner/top-banner-image.jpg\": \"./images/top-banner/top-banner-image.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
+eval("var map = {\n\t\"./logo/logo-image.jpg\": \"./images/logo/logo-image.jpg\",\n\t\"./logo/phone-icon.png\": \"./images/logo/phone-icon.png\",\n\t\"./modal/left.png\": \"./images/modal/left.png\",\n\t\"./top-banner/banner-background.jpg\": \"./images/top-banner/banner-background.jpg\",\n\t\"./top-banner/banner-bg.jpg\": \"./images/top-banner/banner-bg.jpg\",\n\t\"./top-banner/banner-main-img.jpg\": \"./images/top-banner/banner-main-img.jpg\",\n\t\"./top-banner/guarantee-icon.png\": \"./images/top-banner/guarantee-icon.png\",\n\t\"./top-banner/tools_icon.png\": \"./images/top-banner/tools_icon.png\",\n\t\"./top-banner/truck_icon.png\": \"./images/top-banner/truck_icon.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
 
 /***/ })
 

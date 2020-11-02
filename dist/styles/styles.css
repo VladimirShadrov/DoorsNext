@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
 * {
   margin: 0;
   padding: 0;
@@ -136,7 +137,9 @@ body {
         -ms-flex-align: stretch;
             align-items: stretch;
     text-transform: uppercase;
-    color: white; }
+    color: white;
+    z-index: 2;
+    position: relative; }
   .header__catalog {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -643,6 +646,168 @@ body {
     background: url("../images/modal/left.png") no-repeat center/cover;
     z-index: 1;
     position: relative; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: Roboto; }
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.hide {
+  display: none; }
+
+.banner {
+  background: url("../images/top-banner/banner-bg.jpg") no-repeat center/cover;
+  position: relative; }
+  .banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(30, 30, 48, 0.95); }
+  .banner__top-block {
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 30px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-height: 450px; }
+  .banner__top-block-left {
+    max-width: 750px;
+    padding: 25px 20px 20px 0; }
+  .banner__title-top {
+    color: white;
+    font-size: 45px; }
+  .banner__title-bottom {
+    color: darkorange;
+    font-size: 45px;
+    margin-bottom: 35px; }
+  .banner_info {
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 55px;
+    font-size: 20px; }
+  .banner__to-catalog {
+    width: 210px;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: darkorange;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-box-shadow: 0 1px 0 darkorange, 0 0px 60px 1px darkorange;
+            box-shadow: 0 1px 0 darkorange, 0 0px 60px 1px darkorange;
+    display: block;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+    .banner__to-catalog:active {
+      -webkit-box-shadow: 0 1px 0 darkorange, 0 0px 30px 1px darkorange;
+              box-shadow: 0 1px 0 darkorange, 0 0px 30px 1px darkorange; }
+  .banner__top-block-right {
+    background: url("../images/top-banner/banner-main-img.jpg") no-repeat center/cover;
+    min-width: 400px; }
+
+.baner-bottom {
+  padding: 25px 0;
+  background-color: #1e1e30; }
+  .baner-bottom__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .baner-bottom__item-banner {
+    width: calc(100% / 3);
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .baner-bottom__img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  .baner-bottom__img_1 {
+    background: url("../images/top-banner/truck_icon.png") no-repeat center/cover; }
+  .baner-bottom__img_2 {
+    background: url("../images/top-banner/tools_icon.png") no-repeat center/cover; }
+  .baner-bottom__img_3 {
+    background: url("../images/top-banner/guarantee-icon.png") no-repeat center/cover; }
+  .baner-bottom__title {
+    text-align: center;
+    color: white;
+    margin-bottom: auto;
+    font-size: 22px; }
+  .baner-bottom__bottom-block-text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px; }
+
+@media all and (max-width: 1070px) {
+  .banner__title-top,
+  .banner__title-bottom {
+    font-size: 40px; }
+  .banner_info {
+    font-size: 18px; } }
+
+@media all and (max-width: 950px) {
+  .banner__top-block-right {
+    display: none; }
+  .banner__title-top,
+  .banner__title-bottom,
+  .banner_info {
+    text-align: center; }
+  .banner__to-catalog {
+    margin: 0 auto; }
+  .banner__top-block {
+    display: block;
+    min-height: 400px;
+    padding-bottom: 25px; }
+  .banner__top-block-left {
+    width: 100%;
+    margin: 0 auto; } }
+
+@media all and (max-width: 800px) {
+  .baner-bottom__item-banner {
+    width: 100%; } }
+
+@media all and (max-width: 650px) {
+  .banner__title-top,
+  .banner__title-bottom {
+    font-size: 30px; }
+  .banner__title-bottom {
+    margin-bottom: 20px; }
+  .banner_info {
+    font-size: 18px;
+    margin-bottom: 25px; }
+  .banner__top-block {
+    padding-top: 15px;
+    min-height: 350px; } }
 
 
 /*# sourceMappingURL=styles.css.map*/

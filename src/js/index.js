@@ -1,6 +1,7 @@
 import '../styles/styles.scss';
 import '../styles/header.scss';
 import '../styles/modal.scss';
+import '../styles/banner.scss';
 
 
 import { Menu } from './header/menu'
