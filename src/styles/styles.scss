@@ -5,6 +5,8 @@ $main-color: rgba(30, 30, 48, 1);
 $white: rgb(255, 255, 255);
 $gold: rgb(255,140,0); 
 $grey-text: rgb(132, 132, 142);
+$grey: rgb(220, 220, 220);
+$title-color: rgb(40, 40, 40);
 
 
 
@@ -22,6 +24,7 @@ body {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 15px;
+  position: relative;
 }
 
 .hide {

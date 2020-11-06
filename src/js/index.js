@@ -2,6 +2,8 @@ import '../styles/styles.scss';
 import '../styles/header.scss';
 import '../styles/modal.scss';
 import '../styles/banner.scss';
+import '../styles/hits.scss';
+import '../styles/main-page-catalog.scss';
 
 
 import { Menu } from './header/menu'

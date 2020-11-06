@@ -285,6 +285,7 @@
   background-color: rgba(192,192,192,0.6);
   border-radius: 10px 0 0 10px;
   cursor: pointer;
+  z-index: 1;
   transition: 0.5s;
 
   &:hover {
