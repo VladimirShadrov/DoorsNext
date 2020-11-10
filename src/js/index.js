@@ -4,6 +4,9 @@ import '../styles/modal.scss';
 import '../styles/banner.scss';
 import '../styles/hits.scss';
 import '../styles/main-page-catalog.scss';
+import '../styles/choose-us.scss';
+import '../styles/how-to-choose.scss';
+import '../styles/footer.scss';
 
 
 import { Menu } from './header/menu'

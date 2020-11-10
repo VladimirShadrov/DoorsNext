@@ -1,0 +1,92 @@
+@import 'styles';
+
+.choose-us {
+  padding: 25px 0;
+  background-color: $gold;
+
+  &__title {
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__wrapper {
+    margin: 0 -15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    padding: 15px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: calc(50% - 25px);
+      right: 0;
+      height: 50px;
+      width: 1px;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    &:last-child::before {
+      content: '';
+      width: 0;
+    }
+  }
+
+  &__item-img {
+    margin-bottom: 15px;
+  }
+
+  &__item-text {
+    text-align: center;
+    margin-bottom: auto;
+    text-transform: uppercase;
+    color: $white;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .choose-us__item {
+    width: 50%;
+
+    &::before {
+      height: 0;
+    }
+
+    &:nth-child(odd)::before {
+      height: 50px;
+    } 
+  }
+}
+
+@media all and (max-width: 500px) {
+  .choose-us__item {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+    &::before {
+      bottom: 0;
+      top: 100%;
+      left: calc(50% - 25px);
+      height: 1px;
+      width: 50px;
+    }
+
+    &:nth-child(odd)::before {
+      height: 1px;
+    }
+  }
+}
