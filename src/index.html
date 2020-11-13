@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5249921177.js" crossorigin="anonymous"></script>
   <title>Металлические двери</title>
 </head>
 
@@ -65,13 +66,10 @@
               каталог дверей
             </div>
             <ul class="header__catalog-menu">
-              <li class="header__catalog-item" data-id="">123</li>
-              <li class="header__catalog-item" data-id="">123</li>
-              <li class="header__catalog-item" data-id="">123</li>
-              <li class="header__catalog-item" data-id="">123</li>
-              <li class="header__catalog-item" data-id="">123</li>
-              <li class="header__catalog-item" data-id="">123</li>
-              <li class="header__catalog-item" data-id="">123</li>
+              <li class="header__catalog-item" data-id="vinyl">Двери "Винилискожа"</li>
+              <li class="header__catalog-item" data-id="laminate">Двери "Ламинат"</li>
+              <li class="header__catalog-item" data-id="dust">Двери "Порошок"</li>
+              <li class="header__catalog-item" data-id="mdf">Двери "МДФ"</li>
             </ul>
           </div>
           <nav class="header__menu">
@@ -310,7 +308,7 @@
           <div class="main-catalog__item">
             <div class="main-catalog__item-img">
               <img src="./images/main-page-catalog/vinil-img.jpg" alt="image" class="main-catalog__item-image">
-              <button class="main-catalog__item-button">
+              <button class="main-catalog__item-button" data-id="vinyl">
                 перейти в каталог
               </button>
             </div>
@@ -328,7 +326,7 @@
           <div class="main-catalog__item">
             <div class="main-catalog__item-img">
               <img src="./images/main-page-catalog/laminat-img.jpg" alt="image" class="main-catalog__item-image">
-              <button class="main-catalog__item-button">
+              <button class="main-catalog__item-button" data-id="laminate">
                 перейти в каталог
               </button>
             </div>
@@ -346,7 +344,7 @@
           <div class="main-catalog__item">
             <div class="main-catalog__item-img">
               <img src="./images/main-page-catalog/dust-img.jpg" alt="image" class="main-catalog__item-image">
-              <button class="main-catalog__item-button">
+              <button class="main-catalog__item-button" data-id="dust">
                 перейти в каталог
               </button>
             </div>
@@ -364,7 +362,7 @@
           <div class="main-catalog__item">
             <div class="main-catalog__item-img">
               <img src="./images/main-page-catalog/mdf-img.jpg" alt="image" class="main-catalog__item-image">
-              <button class="main-catalog__item-button">
+              <button class="main-catalog__item-button" data-id="mdf">
                 перейти в каталог
               </button>
             </div>
@@ -511,7 +509,88 @@
   <!--  FOOTER  -->
   <footer class="footer">
     <div class="container">
-      <div class="footer__wrapper"></div>
+      <div class="footer__wrapper">
+        <div class="footer__item">
+          <div class="logo">
+            <div class="logo__img"></div>
+            <div class="logo__logo">
+              <div class="logo__title">
+                <span class="logo__first-word">doors</span>
+                <span class="logo__second-word">next</span>
+              </div>
+              <div class="logo__description">
+                <span class="logo__description-text">
+                  производство дверей
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">
+            Каталог дверей
+          </h3>
+          <ul class="footer__catalog">
+            <li class="footer__catalog-item" data-id="vinyl">Двери "Винилискожа"</li>
+            <li class="footer__catalog-item" data-id="laminate">Двери "Ламинат"</li>
+            <li class="footer__catalog-item" data-id="dust">Двери "Порошок"</li>
+            <li class="footer__catalog-item" data-id="mdf">Двери "МДФ"</li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">
+            Покупателям
+          </h3>
+          <ul class="footer__catalog">
+            <li class="footer__catalog-item" data-id="delivery">Доставка и установка</li>
+            <li class="footer__catalog-item" data-id="price">Цены</li>
+            <li class="footer__catalog-item" data-id="guarantee">Гарантия</li>
+            <li class="footer__catalog-item" data-id="contacts">Контакты</li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h3 class="footer__title">
+            Контакты
+          </h3>
+          <div class="footer__contacts">
+            <div class="footer__contacts-item">
+              <div class="footer__contacts-img"><i class="fa fa-map-marker"></i></div>
+              <p class="footer__contacts-text">
+                111222, г. Москва, ул.Московская
+              </p>
+            </div>
+            <div class="footer__contacts-item">
+              <div class="footer__contacts-img">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <p class="footer__contacts-text">
+                <a href="tel:+70000000000" class="footer__contacts-link">
+                  +7 (123) 456-78-90
+                </a>
+              </p>
+            </div>
+            <div class="footer__contacts-item">
+              <div class="footer__contacts-img">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </div>
+              <p class="footer__contacts-text">
+                <a href="mailto:info@test.com" class="footer__contacts-link">
+                  info@test.com
+                </a>
+              </p>
+            </div>
+            <div class="footer__contacts-item">
+              <div class="footer__contacts-img">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+              </div>
+              <p class="footer__contacts-text">
+                c 08:00 до 22:00
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
     <div class="footer__bottom-panel">
       <div class="container">

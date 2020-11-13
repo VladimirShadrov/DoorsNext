@@ -155,10 +155,14 @@
   
   &__catalog-item {
     list-style: none;
-    padding: 10px;
+    padding: 15px;
     border-bottom: 1px solid $grey-text;
-    padding-left: 15px;
+    font-size: 14px;
     transition: 0.5s;
+
+    &:last-child {
+      border-bottom: none;
+    }
   }
 
   &__catalog_active &__catalog-menu {

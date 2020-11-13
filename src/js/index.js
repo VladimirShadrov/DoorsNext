@@ -16,7 +16,7 @@ const header = document.querySelector('.header');
 const callbackPanel = document.querySelector('.callback-panel');
 
 
-// Перенос изображений в папку "dist"
+// Перенос изображений и шрифтов в папку "dist"
 require.context('../images', true, /\.(png|jpg|svg|gif)$/)
 
 
