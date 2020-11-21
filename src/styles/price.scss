@@ -1,0 +1,69 @@
+@import 'styles';
+
+.price {
+  padding-bottom: 35px;
+  
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  &__table,
+  &__table-row,
+  &__table-title,
+  &__table-cell {
+    border: 1px solid $grey;
+  }
+
+  &__table-title {
+    padding: 25px 0;
+    color: $white;
+    background-color: $title-bg;
+    text-transform: uppercase;
+  }
+
+  &__table-cell {
+    padding: 17px 10px;
+
+    &:last-child {
+      font-weight: bold;
+    }
+  }
+
+  &__table-row:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  &__table-link {
+    display: inline-block;
+    text-decoration: none;
+    color: $main-color;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: 0.2s;
+
+    &:hover {
+      color: $gold;
+    }
+  }
+
+  &__table-description {
+    color: $grey-text;
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .price__table-cell:first-child {
+    width: 60%;
+  }
+
+  .price__table-cell:last-child {
+    width: 40%;
+    font-size: 14px;
+  }
+}

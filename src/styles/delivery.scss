@@ -1,0 +1,101 @@
+@import 'styles';
+
+.delivery {
+  padding-bottom: 35px;
+
+  &__title {
+    margin-bottom: 35px;
+    padding: 45px 0 35px 0;
+    background-color: $title-bg;
+  }
+
+  &__title-text {
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__banner {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 250px;
+    margin-bottom: 35px;
+  }
+
+  &__banner-left {
+    width: 50%;
+  }  
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &__banner-right {
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  &__banner-text {
+    margin-bottom: 15px;
+    text-align: justify;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__delivery-title {
+    color: $title-color;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  &__table, 
+  &__table-row,
+  &__table-title,
+  &__table-cell {
+    border: 1px solid $grey;
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  &__table-title {
+    padding: 15px 0;
+    background-color: $title-bg;
+    color: $white;
+    text-transform: uppercase;
+  }
+
+  &__table-cell {
+    padding: 15px 7px;
+
+    &:last-child {
+      font-weight: bold;
+    }
+  }
+
+  &__table-row:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+}
+
+@media all and (max-width: 1020px) {
+  .delivery__banner-left,
+  .delivery__banner-right {
+    width: 100%;
+  }
+
+  .delivery__banner-left {
+    margin-bottom: 20px;
+  }
+
+  .delivery__banner-right {
+    padding: 0;
+  }
+}

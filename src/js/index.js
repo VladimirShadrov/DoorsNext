@@ -7,6 +7,11 @@ import '../styles/main-page-catalog.scss';
 import '../styles/choose-us.scss';
 import '../styles/how-to-choose.scss';
 import '../styles/footer.scss';
+import '../styles/about.scss';
+import '../styles/delivery.scss';
+import '../styles/price.scss';
+import '../styles/guarantee.scss';
+import '../styles/contacts.scss';
 
 
 import { Menu } from './header/menu'
@@ -17,7 +22,7 @@ const callbackPanel = document.querySelector('.callback-panel');
 
 
 // Перенос изображений и шрифтов в папку "dist"
-require.context('../images', true, /\.(png|jpg|svg|gif)$/)
+require.context('../images', true, /\.(png|jpg|svg|gif)$/);
 
 
 const menu = new Menu(header);

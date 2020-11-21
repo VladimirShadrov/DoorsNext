@@ -1,0 +1,64 @@
+@import 'styles';
+
+.guarantee {
+  padding-bottom: 35px;
+  
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  &__item {
+    width: 50%;
+    padding: 0 15px 25px 15px;
+  }
+  
+  &__title {
+    margin-bottom: 5px;
+    color: $title-color;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    padding: 10px 10px 0 25px;
+  }
+
+  &__list-item {
+    list-style: none;
+    margin-bottom: 10px;
+    text-align: justify;
+    position: relative;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 4px;
+      left: -25px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: $gold;
+    }
+  }
+
+  &__text {
+    text-align: justify;
+    margin-top: 10px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .guarantee__item {
+    width: 100%;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
