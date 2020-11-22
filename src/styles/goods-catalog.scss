@@ -1,0 +1,129 @@
+@import 'styles';
+
+.goods-catalog {
+  padding: 25px 0;
+
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-bottom: 35px;
+    color: $title-color;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      height: 3px;
+      width: 70px;
+      background-color: $gold;
+    }
+  }
+
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__filter {
+    width: 20%;
+    background-color: $main-color;
+  }
+
+  &__filter-item {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__filter-title,
+  &__filter-title.active {
+    font-weight: bold;
+    color: $gold;
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: 15px;
+      top: calc(50% - 3px);
+      width: 6px;
+      height: 6px;
+      border-top: 2px solid $gold;
+      border-right: 2px solid $gold;
+      transform: rotate(-45deg);
+      transition: 0.3s;
+    }
+  }
+
+  &__filter-title {
+    &::before {
+      transform: rotate(135deg);
+      top: 25%;
+    }
+  }
+
+  &__form {
+    padding-left: 30px;
+  }
+
+  &__checkbox {
+    margin-bottom: 7px;
+  }
+
+  &__checkbox-item {
+    margin-right: 7px;
+  }
+
+  &__checkbox-label {
+    color: $white;
+  }
+
+  &__buttons {
+    position: relative;
+    height: 80px;
+  }
+
+  &__choose,
+  &__reset {
+    padding: 9px 12px;
+    color: $white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+
+    &:active {
+      box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5) inset;
+    }
+  }
+  
+  &__choose {
+    background-color: $gold;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 20px;
+  }
+
+  &__reset {
+    background-color: red;
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 20px;
+  }
+
+
+
+  &__catalog {
+    width: 80%;
+  }
+}

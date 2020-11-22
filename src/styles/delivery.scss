@@ -49,7 +49,17 @@
   &__delivery-title {
     color: $title-color;
     font-size: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      height: 3px;
+      width: 70px;
+      background-color: $gold;
+    }
   }
 
   &__table, 

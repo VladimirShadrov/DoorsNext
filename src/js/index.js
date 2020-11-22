@@ -12,6 +12,7 @@ import '../styles/delivery.scss';
 import '../styles/price.scss';
 import '../styles/guarantee.scss';
 import '../styles/contacts.scss';
+import '../styles/goods-catalog.scss';
 
 
 import { Menu } from './header/menu'

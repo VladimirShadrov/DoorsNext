@@ -5,7 +5,17 @@
 
   &__title {
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      height: 3px;
+      width: 70px;
+      background-color: $gold;
+    }
   }
 
   &__wrapper {

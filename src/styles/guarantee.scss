@@ -15,9 +15,19 @@
   }
   
   &__title {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     color: $title-color;
     text-transform: uppercase;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      height: 3px;
+      width: 70px;
+      background-color: $gold;
+    }
   }
 
   &__list {
