@@ -13,6 +13,7 @@ import '../styles/price.scss';
 import '../styles/guarantee.scss';
 import '../styles/contacts.scss';
 import '../styles/goods-catalog.scss';
+import '../styles/product-card.scss';
 
 
 import { Menu } from './header/menu'

@@ -1,0 +1,207 @@
+@import 'styles';
+
+.product-card {
+  padding: 35px 0;
+
+  &__title {
+    margin-bottom: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $title-color;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      height: 3px;
+      width: 70px;
+      background-color: $gold;
+    }
+  }
+
+  &__detail-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__left-bar {
+    width: 40%;
+    padding: 0 15px;
+  }
+
+  &__product-img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__advantages-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+  }
+
+  &__advantages-item {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    padding: 45px 7px 15px 7px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  &__advantages-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $white;
+    position: absolute;
+    top: calc(-50% + 25px);
+    left: calc(50% - 25px);
+    border: 2px solid $gold;
+    padding: 10px 0;
+  }
+
+  &__image {
+    display: block;
+    width: 55%;
+    margin: 0 auto;
+  }
+
+  &__advantages-text {
+    text-align: center;
+    font-size: 14px;
+    color: $title-color;
+  }
+
+  &__right-bar {
+    width: 57%;
+  }
+
+  &__price-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    border-bottom: 1px solid $grey-text;
+    margin-bottom: 20px;
+  }
+
+  &__price-item {
+    width: 50%;
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 1px;
+      height: 45px;
+      background-color: $grey-text;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      transform: rotate(20deg);
+    }
+
+    &:last-child::after {
+      width: 0;
+    }
+  }
+
+  &__price-title,
+  &__price {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  &__price {
+    color: $gold;
+    display: inline-block;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-color: $gold;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: $white;
+      color: $title-color;
+      border: 2px solid $gold;
+    }
+  }
+
+  &__locks-container {
+    width: 100%;
+  }
+
+  &__lock-title {
+    color: $title-color;
+    margin-bottom: 15px;
+  }
+
+  &__lock-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__lock-item {
+    padding: 10px;
+    display: flex;
+    width: 50%;
+  }
+
+  &__lock-img {
+    width: 35%;
+    border: 1px solid $grey-text;
+    padding: 7px;
+  }
+
+  &__lock-image {
+    width: 100%;
+    height: auto;
+  }
+
+  &__lock-description {
+    width: 65%;
+    padding: 0 5px 0 15px;
+  }
+
+  &__lock-item-title {
+    font-size: 20px;
+  }
+
+  &__lock-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  &__lock-detail {
+    font-weight: bold;
+    margin-bottom: 7px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__lock-span {
+    font-weight: normal;
+  }
+}

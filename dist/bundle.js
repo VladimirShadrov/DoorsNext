@@ -75,7 +75,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/header.scss */ \"./styles/header.scss\");\n/* harmony import */ var _styles_modal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/modal.scss */ \"./styles/modal.scss\");\n/* harmony import */ var _styles_banner_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/banner.scss */ \"./styles/banner.scss\");\n/* harmony import */ var _styles_hits_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/hits.scss */ \"./styles/hits.scss\");\n/* harmony import */ var _styles_main_page_catalog_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/main-page-catalog.scss */ \"./styles/main-page-catalog.scss\");\n/* harmony import */ var _styles_choose_us_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/choose-us.scss */ \"./styles/choose-us.scss\");\n/* harmony import */ var _styles_how_to_choose_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/how-to-choose.scss */ \"./styles/how-to-choose.scss\");\n/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/footer.scss */ \"./styles/footer.scss\");\n/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/about.scss */ \"./styles/about.scss\");\n/* harmony import */ var _styles_delivery_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/delivery.scss */ \"./styles/delivery.scss\");\n/* harmony import */ var _styles_price_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../styles/price.scss */ \"./styles/price.scss\");\n/* harmony import */ var _styles_guarantee_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../styles/guarantee.scss */ \"./styles/guarantee.scss\");\n/* harmony import */ var _styles_contacts_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../styles/contacts.scss */ \"./styles/contacts.scss\");\n/* harmony import */ var _styles_goods_catalog_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../styles/goods-catalog.scss */ \"./styles/goods-catalog.scss\");\n/* harmony import */ var _header_menu__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./header/menu */ \"./js/header/menu.js\");\n/* harmony import */ var _callback_callback__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./callback/callback */ \"./js/callback/callback.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar header = document.querySelector('.header');\nvar callbackPanel = document.querySelector('.callback-panel'); // Перенос изображений и шрифтов в папку \"dist\"\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\nvar menu = new _header_menu__WEBPACK_IMPORTED_MODULE_15__.Menu(header);\nvar callback = new _callback_callback__WEBPACK_IMPORTED_MODULE_16__.Callback(callbackPanel);\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/header.scss */ \"./styles/header.scss\");\n/* harmony import */ var _styles_modal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/modal.scss */ \"./styles/modal.scss\");\n/* harmony import */ var _styles_banner_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/banner.scss */ \"./styles/banner.scss\");\n/* harmony import */ var _styles_hits_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/hits.scss */ \"./styles/hits.scss\");\n/* harmony import */ var _styles_main_page_catalog_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/main-page-catalog.scss */ \"./styles/main-page-catalog.scss\");\n/* harmony import */ var _styles_choose_us_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/choose-us.scss */ \"./styles/choose-us.scss\");\n/* harmony import */ var _styles_how_to_choose_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/how-to-choose.scss */ \"./styles/how-to-choose.scss\");\n/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/footer.scss */ \"./styles/footer.scss\");\n/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/about.scss */ \"./styles/about.scss\");\n/* harmony import */ var _styles_delivery_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/delivery.scss */ \"./styles/delivery.scss\");\n/* harmony import */ var _styles_price_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../styles/price.scss */ \"./styles/price.scss\");\n/* harmony import */ var _styles_guarantee_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../styles/guarantee.scss */ \"./styles/guarantee.scss\");\n/* harmony import */ var _styles_contacts_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../styles/contacts.scss */ \"./styles/contacts.scss\");\n/* harmony import */ var _styles_goods_catalog_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../styles/goods-catalog.scss */ \"./styles/goods-catalog.scss\");\n/* harmony import */ var _styles_product_card_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../styles/product-card.scss */ \"./styles/product-card.scss\");\n/* harmony import */ var _header_menu__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./header/menu */ \"./js/header/menu.js\");\n/* harmony import */ var _callback_callback__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./callback/callback */ \"./js/callback/callback.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar header = document.querySelector('.header');\nvar callbackPanel = document.querySelector('.callback-panel'); // Перенос изображений и шрифтов в папку \"dist\"\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\nvar menu = new _header_menu__WEBPACK_IMPORTED_MODULE_16__.Menu(header);\nvar callback = new _callback_callback__WEBPACK_IMPORTED_MODULE_17__.Callback(callbackPanel);\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 
@@ -4042,6 +4042,156 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./images/colors/color1.jpg":
+/*!**********************************!*\
+  !*** ./images/colors/color1.jpg ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color1.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color1.jpg?");
+
+/***/ }),
+
+/***/ "./images/colors/color10.jpg":
+/*!***********************************!*\
+  !*** ./images/colors/color10.jpg ***!
+  \***********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color10.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color10.jpg?");
+
+/***/ }),
+
+/***/ "./images/colors/color2.jpg":
+/*!**********************************!*\
+  !*** ./images/colors/color2.jpg ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color2.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color2.jpg?");
+
+/***/ }),
+
+/***/ "./images/colors/color3.jpg":
+/*!**********************************!*\
+  !*** ./images/colors/color3.jpg ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color3.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color3.jpg?");
+
+/***/ }),
+
+/***/ "./images/colors/color4.jpg":
+/*!**********************************!*\
+  !*** ./images/colors/color4.jpg ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color4.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color4.jpg?");
+
+/***/ }),
+
+/***/ "./images/colors/color5.jpg":
+/*!**********************************!*\
+  !*** ./images/colors/color5.jpg ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color5.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color5.jpg?");
+
+/***/ }),
+
+/***/ "./images/colors/color6.jpg":
+/*!**********************************!*\
+  !*** ./images/colors/color6.jpg ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color6.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color6.jpg?");
+
+/***/ }),
+
+/***/ "./images/colors/color7.jpg":
+/*!**********************************!*\
+  !*** ./images/colors/color7.jpg ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color7.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color7.jpg?");
+
+/***/ }),
+
+/***/ "./images/colors/color8.jpg":
+/*!**********************************!*\
+  !*** ./images/colors/color8.jpg ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color8.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color8.jpg?");
+
+/***/ }),
+
+/***/ "./images/colors/color9.jpg":
+/*!**********************************!*\
+  !*** ./images/colors/color9.jpg ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/colors/color9.jpg\");\n\n//# sourceURL=webpack:///./images/colors/color9.jpg?");
+
+/***/ }),
+
 /***/ "./images/delivery/banner-img.jpg":
 /*!****************************************!*\
   !*** ./images/delivery/banner-img.jpg ***!
@@ -4447,6 +4597,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./images/locks/lock1.jpg":
+/*!********************************!*\
+  !*** ./images/locks/lock1.jpg ***!
+  \********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/locks/lock1.jpg\");\n\n//# sourceURL=webpack:///./images/locks/lock1.jpg?");
+
+/***/ }),
+
+/***/ "./images/locks/lock2.jpg":
+/*!********************************!*\
+  !*** ./images/locks/lock2.jpg ***!
+  \********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/locks/lock2.jpg\");\n\n//# sourceURL=webpack:///./images/locks/lock2.jpg?");
+
+/***/ }),
+
 /***/ "./images/logo/logo-image.jpg":
 /*!************************************!*\
   !*** ./images/logo/logo-image.jpg ***!
@@ -4549,6 +4729,51 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/modal/left.png\");\n\n//# sourceURL=webpack:///./images/modal/left.png?");
+
+/***/ }),
+
+/***/ "./images/product-card/finger.png":
+/*!****************************************!*\
+  !*** ./images/product-card/finger.png ***!
+  \****************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/product-card/finger.png\");\n\n//# sourceURL=webpack:///./images/product-card/finger.png?");
+
+/***/ }),
+
+/***/ "./images/product-card/key.png":
+/*!*************************************!*\
+  !*** ./images/product-card/key.png ***!
+  \*************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/product-card/key.png\");\n\n//# sourceURL=webpack:///./images/product-card/key.png?");
+
+/***/ }),
+
+/***/ "./images/product-card/watch.png":
+/*!***************************************!*\
+  !*** ./images/product-card/watch.png ***!
+  \***************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/product-card/watch.png\");\n\n//# sourceURL=webpack:///./images/product-card/watch.png?");
 
 /***/ }),
 
@@ -4838,6 +5063,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./styles/product-card.scss":
+/*!**********************************!*\
+  !*** ./styles/product-card.scss ***!
+  \**********************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./styles/product-card.scss?");
+
+/***/ }),
+
 /***/ "./styles/styles.scss":
 /*!****************************!*\
   !*** ./styles/styles.scss ***!
@@ -4874,7 +5113,7 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /*! runtime requirements: module, __webpack_require__.o, __webpack_require__ */
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./choose-us/delivery.png\": \"./images/choose-us/delivery.png\",\n\t\"./choose-us/guarantee.png\": \"./images/choose-us/guarantee.png\",\n\t\"./choose-us/installation.png\": \"./images/choose-us/installation.png\",\n\t\"./choose-us/money.png\": \"./images/choose-us/money.png\",\n\t\"./delivery/banner-img.jpg\": \"./images/delivery/banner-img.jpg\",\n\t\"./doors/dust-laminat1.jpg\": \"./images/doors/dust-laminat1.jpg\",\n\t\"./doors/dust-laminat4.jpg\": \"./images/doors/dust-laminat4.jpg\",\n\t\"./doors/dust-laminat5.jpg\": \"./images/doors/dust-laminat5.jpg\",\n\t\"./doors/dust-laminat6.jpg\": \"./images/doors/dust-laminat6.jpg\",\n\t\"./doors/dust-mdf1.jpg\": \"./images/doors/dust-mdf1.jpg\",\n\t\"./doors/dust-vinil.jpg\": \"./images/doors/dust-vinil.jpg\",\n\t\"./doors/dust-vinil1.jpg\": \"./images/doors/dust-vinil1.jpg\",\n\t\"./doors/laminat-mdf1.png\": \"./images/doors/laminat-mdf1.png\",\n\t\"./doors/laminat-vinil1.jpg\": \"./images/doors/laminat-vinil1.jpg\",\n\t\"./doors/laminat1.jpg\": \"./images/doors/laminat1.jpg\",\n\t\"./doors/laminat2.jpg\": \"./images/doors/laminat2.jpg\",\n\t\"./doors/laminat3.jpg\": \"./images/doors/laminat3.jpg\",\n\t\"./doors/mdf1.jpg\": \"./images/doors/mdf1.jpg\",\n\t\"./doors/mdf2.jpg\": \"./images/doors/mdf2.jpg\",\n\t\"./doors/mdf3.jpg\": \"./images/doors/mdf3.jpg\",\n\t\"./doors/mdf4.jpg\": \"./images/doors/mdf4.jpg\",\n\t\"./hits/1-1.jpg\": \"./images/hits/1-1.jpg\",\n\t\"./hits/1.jpg\": \"./images/hits/1.jpg\",\n\t\"./hits/2-2.jpg\": \"./images/hits/2-2.jpg\",\n\t\"./hits/2.jpg\": \"./images/hits/2.jpg\",\n\t\"./hits/3-3.jpg\": \"./images/hits/3-3.jpg\",\n\t\"./hits/3.jpg\": \"./images/hits/3.jpg\",\n\t\"./hits/4-4.jpg\": \"./images/hits/4-4.jpg\",\n\t\"./hits/4.jpg\": \"./images/hits/4.jpg\",\n\t\"./hits/5-5.jpg\": \"./images/hits/5-5.jpg\",\n\t\"./hits/5.jpg\": \"./images/hits/5.jpg\",\n\t\"./logo/logo-image.jpg\": \"./images/logo/logo-image.jpg\",\n\t\"./logo/phone-icon.png\": \"./images/logo/phone-icon.png\",\n\t\"./main-page-catalog/dust-img.jpg\": \"./images/main-page-catalog/dust-img.jpg\",\n\t\"./main-page-catalog/laminat-img.jpg\": \"./images/main-page-catalog/laminat-img.jpg\",\n\t\"./main-page-catalog/mdf-img.jpg\": \"./images/main-page-catalog/mdf-img.jpg\",\n\t\"./main-page-catalog/vinil-img.jpg\": \"./images/main-page-catalog/vinil-img.jpg\",\n\t\"./modal/left.png\": \"./images/modal/left.png\",\n\t\"./top-banner/banner-background.jpg\": \"./images/top-banner/banner-background.jpg\",\n\t\"./top-banner/banner-bg.jpg\": \"./images/top-banner/banner-bg.jpg\",\n\t\"./top-banner/banner-main-img.jpg\": \"./images/top-banner/banner-main-img.jpg\",\n\t\"./top-banner/guarantee-icon.png\": \"./images/top-banner/guarantee-icon.png\",\n\t\"./top-banner/tools_icon.png\": \"./images/top-banner/tools_icon.png\",\n\t\"./top-banner/truck_icon.png\": \"./images/top-banner/truck_icon.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
+eval("var map = {\n\t\"./choose-us/delivery.png\": \"./images/choose-us/delivery.png\",\n\t\"./choose-us/guarantee.png\": \"./images/choose-us/guarantee.png\",\n\t\"./choose-us/installation.png\": \"./images/choose-us/installation.png\",\n\t\"./choose-us/money.png\": \"./images/choose-us/money.png\",\n\t\"./colors/color1.jpg\": \"./images/colors/color1.jpg\",\n\t\"./colors/color10.jpg\": \"./images/colors/color10.jpg\",\n\t\"./colors/color2.jpg\": \"./images/colors/color2.jpg\",\n\t\"./colors/color3.jpg\": \"./images/colors/color3.jpg\",\n\t\"./colors/color4.jpg\": \"./images/colors/color4.jpg\",\n\t\"./colors/color5.jpg\": \"./images/colors/color5.jpg\",\n\t\"./colors/color6.jpg\": \"./images/colors/color6.jpg\",\n\t\"./colors/color7.jpg\": \"./images/colors/color7.jpg\",\n\t\"./colors/color8.jpg\": \"./images/colors/color8.jpg\",\n\t\"./colors/color9.jpg\": \"./images/colors/color9.jpg\",\n\t\"./delivery/banner-img.jpg\": \"./images/delivery/banner-img.jpg\",\n\t\"./doors/dust-laminat1.jpg\": \"./images/doors/dust-laminat1.jpg\",\n\t\"./doors/dust-laminat4.jpg\": \"./images/doors/dust-laminat4.jpg\",\n\t\"./doors/dust-laminat5.jpg\": \"./images/doors/dust-laminat5.jpg\",\n\t\"./doors/dust-laminat6.jpg\": \"./images/doors/dust-laminat6.jpg\",\n\t\"./doors/dust-mdf1.jpg\": \"./images/doors/dust-mdf1.jpg\",\n\t\"./doors/dust-vinil.jpg\": \"./images/doors/dust-vinil.jpg\",\n\t\"./doors/dust-vinil1.jpg\": \"./images/doors/dust-vinil1.jpg\",\n\t\"./doors/laminat-mdf1.png\": \"./images/doors/laminat-mdf1.png\",\n\t\"./doors/laminat-vinil1.jpg\": \"./images/doors/laminat-vinil1.jpg\",\n\t\"./doors/laminat1.jpg\": \"./images/doors/laminat1.jpg\",\n\t\"./doors/laminat2.jpg\": \"./images/doors/laminat2.jpg\",\n\t\"./doors/laminat3.jpg\": \"./images/doors/laminat3.jpg\",\n\t\"./doors/mdf1.jpg\": \"./images/doors/mdf1.jpg\",\n\t\"./doors/mdf2.jpg\": \"./images/doors/mdf2.jpg\",\n\t\"./doors/mdf3.jpg\": \"./images/doors/mdf3.jpg\",\n\t\"./doors/mdf4.jpg\": \"./images/doors/mdf4.jpg\",\n\t\"./hits/1-1.jpg\": \"./images/hits/1-1.jpg\",\n\t\"./hits/1.jpg\": \"./images/hits/1.jpg\",\n\t\"./hits/2-2.jpg\": \"./images/hits/2-2.jpg\",\n\t\"./hits/2.jpg\": \"./images/hits/2.jpg\",\n\t\"./hits/3-3.jpg\": \"./images/hits/3-3.jpg\",\n\t\"./hits/3.jpg\": \"./images/hits/3.jpg\",\n\t\"./hits/4-4.jpg\": \"./images/hits/4-4.jpg\",\n\t\"./hits/4.jpg\": \"./images/hits/4.jpg\",\n\t\"./hits/5-5.jpg\": \"./images/hits/5-5.jpg\",\n\t\"./hits/5.jpg\": \"./images/hits/5.jpg\",\n\t\"./locks/lock1.jpg\": \"./images/locks/lock1.jpg\",\n\t\"./locks/lock2.jpg\": \"./images/locks/lock2.jpg\",\n\t\"./logo/logo-image.jpg\": \"./images/logo/logo-image.jpg\",\n\t\"./logo/phone-icon.png\": \"./images/logo/phone-icon.png\",\n\t\"./main-page-catalog/dust-img.jpg\": \"./images/main-page-catalog/dust-img.jpg\",\n\t\"./main-page-catalog/laminat-img.jpg\": \"./images/main-page-catalog/laminat-img.jpg\",\n\t\"./main-page-catalog/mdf-img.jpg\": \"./images/main-page-catalog/mdf-img.jpg\",\n\t\"./main-page-catalog/vinil-img.jpg\": \"./images/main-page-catalog/vinil-img.jpg\",\n\t\"./modal/left.png\": \"./images/modal/left.png\",\n\t\"./product-card/finger.png\": \"./images/product-card/finger.png\",\n\t\"./product-card/key.png\": \"./images/product-card/key.png\",\n\t\"./product-card/watch.png\": \"./images/product-card/watch.png\",\n\t\"./top-banner/banner-background.jpg\": \"./images/top-banner/banner-background.jpg\",\n\t\"./top-banner/banner-bg.jpg\": \"./images/top-banner/banner-bg.jpg\",\n\t\"./top-banner/banner-main-img.jpg\": \"./images/top-banner/banner-main-img.jpg\",\n\t\"./top-banner/guarantee-icon.png\": \"./images/top-banner/guarantee-icon.png\",\n\t\"./top-banner/tools_icon.png\": \"./images/top-banner/tools_icon.png\",\n\t\"./top-banner/truck_icon.png\": \"./images/top-banner/truck_icon.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
 
 /***/ })
 
