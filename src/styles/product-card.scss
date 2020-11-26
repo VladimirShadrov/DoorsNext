@@ -89,7 +89,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0;
-    border-bottom: 1px solid $grey-text;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
   }
 
@@ -101,7 +101,7 @@
       content: '';
       width: 1px;
       height: 45px;
-      background-color: $grey-text;
+      background-color: rgba(0, 0, 0, 0.2);
       position: absolute;
       top: 0;
       right: 0;
@@ -168,7 +168,7 @@
 
   &__lock-img {
     width: 35%;
-    border: 1px solid $grey-text;
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 7px;
   }
 
@@ -183,17 +183,18 @@
   }
 
   &__lock-item-title {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   &__lock-name {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 0;
   }
 
   &__lock-detail {
     font-weight: bold;
+    font-size: 14px;
     margin-bottom: 7px;
 
     &:last-child {
@@ -203,5 +204,328 @@
 
   &__lock-span {
     font-weight: normal;
+    font-size: 14px;
+  }
+
+  &__property-wrapper {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  &__property-item {
+    width: 50%;
+    padding: 10px;
+  }
+
+  &__property-table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+
+  &__table-row {
+    
+    &:nth-child(even) {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  &__table-cell {
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  &__bold-text {
+    font-weight: bold;
+  }
+
+  &__normal-text {
+    font-weight: normal;
+  }
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px 0;
+    color: $gold;
+    border-bottom: 1px dashed $gold;
+  }
+
+  &__colors {
+    margin-bottom: 15px;
+  }
+
+  &__colors-title {
+    margin-bottom: 15px;
+  }
+
+  &__colors-container {
+    display: flex;
+  }
+
+  &__colors-item {
+    width: 20%;
+    margin: 0 6px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__item-bg-color {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+  }
+
+  &__navigation-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 45px;
+  }
+
+  &__navigation-item {
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: none;
+    width: 33.33%;
+    transition: 0.3s;
+
+    &:last-child {
+      border-right: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    &.active {
+      background-color: rgba(0, 0, 0, 0.1);
+      border-bottom: none;
+    }
+  }
+
+  &__navigation-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  &__tab {
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: none;
+    transition: 0.3s;
+  }
+
+  &__tab-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__tab-table-row {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+    &:nth-child(odd) {
+      background-color: $white;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__tab-table-title {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: $title-color;
+    padding: 20px 0 10px 0;
+    text-align: left;
+  }
+
+  &__tab-table-cell {
+    padding: 10px;
+
+    &:first-child {
+      width: 35%;
+    }
+
+    &:last-child {
+      width: 65%;
+    }
+  }
+
+  &__tab-color-title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: $title-color;
+  }
+
+  &__tab-color-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: -15px;
+    width: calc(100% + 30px);
+  }
+
+  &__tab-color-item {
+    width: 100%;
+    margin-bottom: 25px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__color-item {
+    width: calc(20% - 30px);
+    margin: 15px;
+  }
+
+  &__tab-color-color {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1050px) {
+  .product-card__advantages-item {
+    width: calc(100% - 10px);
+    margin-bottom: 25px;
+  }
+}
+
+
+@media all and (max-width: 1050px) {
+  .product-card__left-bar {
+    width: 30%;
+  }
+
+  .product-card__right-bar {
+    width: 70%;
+  }
+
+  .product-card__advantages-item {
+    width: calc(100% - 10px);
+    margin-bottom: 15px;
+  }
+
+  .product-card__price-title,
+  .product-card__price {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 760px) {
+  .product-card__advantages-item {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 760px) {
+  .product-card__title {
+    margin-bottom: 5px;
+
+    &::before {
+      height: 0;
+    }
+  }
+
+  .product-card__left-bar {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .product-card__right-bar {
+    width: 100%;
+  }
+
+  .product-card__product-img {
+    margin-bottom: 25px;
+  }
+
+  .product-card__navigation-item {
+    width: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+  }
+
+  .product-card__tab {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 7px;
+  }
+
+  .product-card__tab-table-cell {
+    font-size: 15px;
+
+    &:first-child {
+      width: 40%;
+    }
+
+    &:last-child {
+      width: 60%;
+    }
+  }
+
+  .product-card__color-item {
+    width: calc(33.33% - 30px);
+  }
+}
+
+@media all and (max-width: 550px) {
+  .product-card__advantages-item {
+    width: calc(100% - 10px);
+    margin-bottom: 15px;
+  }
+
+  .product-card__property-wrapper {
+    display: none;
+  }
+
+  .product-card__navigation-container {
+    padding-top: 25px;
+  }
+
+  .product-card__price-item {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &::after {
+      width: 0;
+    }
+  }
+
+  .product-card__left-bar {
+    margin-bottom: 0;
+  }
+
+  .product-card__lock-item {
+    width: 100%;
+  }
+
+  .product-card__color-item {
+    width: calc(50% - 30px);
   }
 }
