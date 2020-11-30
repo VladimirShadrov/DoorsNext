@@ -19,6 +19,7 @@ import '../styles/product-card.scss';
 import { BurgerMenuComponent } from './components/burgerMenu.component'
 import { Callback } from './components/callback.component';
 import { HeaderMenuComponent } from './components/headerMenu.component';
+import { FooterMenuComponent } from './components/footerMenu.component';
 
 const header = document.querySelector('.header');
 const footer = document.querySelector('.footer');
@@ -46,3 +47,5 @@ const headerMenu = new HeaderMenuComponent('.header__menu-container', headerMenu
 
 headerMenu.addPageClassActive();
 headerMenu.setActiveClassMenuItem();
+
+new FooterMenuComponent('.footer__bottom-menu', headerMenuPages, '.footer__bottom-menu-item');
