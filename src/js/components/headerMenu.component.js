@@ -9,11 +9,25 @@ export class HeaderMenuComponent extends Menu {
 
   init() {
     this.menuContainer.addEventListener('click', menuClickHendler.bind(this));
-  }    
+  };
+  
+
+  setActiveClassMenuItem() {
+    const menuItemId = this.getCurrentPageFromSessionStorage();
+    this.menuItems.forEach(item => item.classList.remove('header__menu-item_active'));
+    const activeMenuItem = this.menuItems.find(item => item.dataset.id === menuItemId);
+    activeMenuItem.classList.add('header__menu-item_active');
+  };
   
 };
 
 function menuClickHendler(event) {
-  const currentPage = event.target.dataset.id
-  this.setActivePage(currentPage)
-}
+  let currentPage = event.target.dataset.id || '';
+  this.setCurrentPageToSessionStorage(currentPage)
+  
+  if (event.target.classList.contains('header__menu-item')) {
+    this.setActiveClassMenuItem()
+    this.addPageClassActive();
+  }
+};
+

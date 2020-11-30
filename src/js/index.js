@@ -16,8 +16,8 @@ import '../styles/goods-catalog.scss';
 import '../styles/product-card.scss';
 
 
-import { Menu } from './header/menu'
-import { Callback } from './callback/callback';
+import { BurgerMenuComponent } from './components/burgerMenu.component'
+import { Callback } from './components/callback.component';
 import { HeaderMenuComponent } from './components/headerMenu.component';
 
 const header = document.querySelector('.header');
@@ -30,7 +30,7 @@ const guaranteeSection = document.querySelector('.guarantee');
 const contactsSection = document.querySelector('.contacts');
 const goodsCatalogSection = document.querySelector('.goods-catalog');
 const productCardSection = document.querySelector('.product-card');
-const headerMenuPages = [mainPage, aboutUsSection, deliverySection, priceSection, guaranteeSection, contactsSection];
+const headerMenuPages = [mainPage, aboutUsSection, deliverySection, priceSection, guaranteeSection, contactsSection, goodsCatalogSection, productCardSection];
 
 const callbackPanel = document.querySelector('.callback-panel');
 
@@ -39,8 +39,10 @@ const callbackPanel = document.querySelector('.callback-panel');
 require.context('../images', true, /\.(png|jpg|svg|gif)$/);
 
 
-const menu = new Menu(header);
+const menu = new BurgerMenuComponent(header, headerMenuPages);
 const callback = new Callback(callbackPanel);
 
-new HeaderMenuComponent('.header__menu-container', headerMenuPages, '.header__menu-item');
+const headerMenu = new HeaderMenuComponent('.header__menu-container', headerMenuPages, '.header__menu-item');
 
+headerMenu.addPageClassActive();
+headerMenu.setActiveClassMenuItem();
