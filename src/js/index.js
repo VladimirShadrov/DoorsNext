@@ -48,4 +48,4 @@ const headerMenu = new HeaderMenuComponent('.header__menu-container', headerMenu
 headerMenu.addPageClassActive();
 headerMenu.setActiveClassMenuItem();
 
-new FooterMenuComponent('.footer__bottom-menu', headerMenuPages, '.footer__bottom-menu-item', '.header__menu-container', '.header__menu-item');
+new FooterMenuComponent('.footer__bottom-menu', headerMenuPages, '.footer__bottom-menu-item', '.header__menu-container', '.header__menu-item', footer);

@@ -2,9 +2,12 @@ import { Menu } from '../core/menu';
 import { HeaderMenuComponent } from './headerMenu.component';
 
 export class FooterMenuComponent extends Menu {
-  constructor(container, sitePagesArray, menuComponents, headerMenuContainer, headerMenuItem) {
+  constructor(container, sitePagesArray, menuComponents, headerMenuContainer, headerMenuItem, footer) {
     super(container, sitePagesArray, menuComponents);
-    
+
+    this.footer = footer;
+    console.log(footer)
+        
     this.headerMenu = new HeaderMenuComponent(headerMenuContainer, sitePagesArray, headerMenuItem);
 
   }
