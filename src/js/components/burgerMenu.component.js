@@ -1,7 +1,7 @@
 import { HeaderMenuComponent } from './headerMenu.component'
 
 export class BurgerMenuComponent {
-  constructor(selector, pages) {
+  constructor(selector, pages, headerMenuContainer, headerMenuItem) {
     this.el = selector;
     this.topMenuList = Array.from(this.el.querySelectorAll('.header__menu-item'));
     this.sideMenu = document.querySelector('.side-menu');
@@ -10,6 +10,7 @@ export class BurgerMenuComponent {
     this.catalogButton = this.el.querySelector('.header__catalog');
     this.sitePages = pages;
     this.responsiveMenu = new HeaderMenuComponent('.side-menu__wrapper', this.sitePages, '.side-menu__item');
+    this.headerMenu = new HeaderMenuComponent(headerMenuContainer, this.sitePages, headerMenuItem);
 
 
     this.openBurgerMenu();
@@ -56,10 +57,10 @@ export class BurgerMenuComponent {
 }
 
 function menuClickHendler(event) {
-  // let currentPage = event.target.dataset.id || '';
 
   if (event.target.classList.contains('side-menu__item')) {
     this.responsiveMenu.addPageClassActive();
+    this.headerMenu.setActiveClassMenuItem();
     this.closeBurgerMenu();
   }
 

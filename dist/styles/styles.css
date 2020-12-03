@@ -1098,11 +1098,6 @@ body {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px; }
 
-.main-page {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
-
 @media all and (max-width: 1100px) {
   .main-catalog__item {
     width: calc(33.3% - 20px); } }
@@ -1481,10 +1476,7 @@ body {
   opacity: 0; }
 
 .about {
-  padding-bottom: 20px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  padding-bottom: 20px; }
   .about__title {
     text-transform: uppercase;
     font-size: 22px;
@@ -1523,10 +1515,7 @@ body {
   opacity: 0; }
 
 .delivery {
-  padding-bottom: 35px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  padding-bottom: 35px; }
   .delivery__title {
     margin-bottom: 35px;
     padding: 45px 0 35px 0;
@@ -1617,10 +1606,7 @@ body {
   opacity: 0; }
 
 .price {
-  padding-bottom: 35px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  padding-bottom: 35px; }
   .price__title {
     margin-bottom: 25px;
     position: relative; }
@@ -1691,10 +1677,7 @@ body {
   opacity: 0; }
 
 .guarantee {
-  padding-bottom: 35px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  padding-bottom: 35px; }
   .guarantee__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1768,10 +1751,7 @@ body {
   opacity: 0; }
 
 .contacts {
-  padding: 35px 0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  padding: 35px 0; }
   .contacts__title {
     text-transform: uppercase;
     margin-bottom: 45px;
@@ -1860,10 +1840,7 @@ body {
   opacity: 0; }
 
 .goods-catalog {
-  padding: 25px 0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  padding: 25px 0; }
   .goods-catalog__title {
     text-transform: uppercase;
     text-align: center;
@@ -2044,10 +2021,7 @@ body {
   opacity: 0; }
 
 .product-card {
-  padding: 35px 0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  padding: 35px 0; }
   .product-card__title {
     margin-bottom: 35px;
     text-align: center;

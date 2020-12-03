@@ -25,21 +25,14 @@ export class Menu {
 
     this.sitePages.forEach(page => {
       page.style.opacity = 0;
+      page.classList.add('hide');
 
-      setTimeout(function() {
-        page.classList.add('hide');
-      }, 500)
     });
     
+    window.scrollTo(0, 0);
+    currentPage.classList.remove('hide')
+    currentPage.style.opacity = 1;
 
-    setTimeout(function() {
-      window.scrollTo(0, 0);
-      currentPage.classList.remove('hide')
-    }, 500);
-    
-    setTimeout(function() {
-      currentPage.style.opacity = 1;
-    }, 510)
   }
 }
 

@@ -1,8 +1,11 @@
 import { Menu } from '../core/menu';
+import { HeaderMenuComponent } from './headerMenu.component';
 
 export class FooterMenuComponent extends Menu {
-  constructor(container, sitePagesArray, menuComponents) {
+  constructor(container, sitePagesArray, menuComponents, headerMenuContainer, headerMenuItem) {
     super(container, sitePagesArray, menuComponents);
+    
+    this.headerMenu = new HeaderMenuComponent(headerMenuContainer, sitePagesArray, headerMenuItem);
 
   }
 
@@ -13,9 +16,10 @@ export class FooterMenuComponent extends Menu {
 
 function footerMenuClickHenlder(event) {
   let currentPage = event.target.dataset.id || '';
-  this.setCurrentPageToSessionStorage(currentPage)
+  this.setCurrentPageToSessionStorage(currentPage);
 
   if (event.target.classList.contains('footer__bottom-menu-item')) {
     this.addPageClassActive();
+    this.headerMenu.setActiveClassMenuItem();
   }
 };

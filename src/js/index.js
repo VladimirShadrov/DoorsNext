@@ -40,7 +40,7 @@ const callbackPanel = document.querySelector('.callback-panel');
 require.context('../images', true, /\.(png|jpg|svg|gif)$/);
 
 
-const menu = new BurgerMenuComponent(header, headerMenuPages);
+const menu = new BurgerMenuComponent(header, headerMenuPages, '.header__menu-container', '.header__menu-item');
 const callback = new Callback(callbackPanel);
 
 const headerMenu = new HeaderMenuComponent('.header__menu-container', headerMenuPages, '.header__menu-item');
@@ -48,4 +48,4 @@ const headerMenu = new HeaderMenuComponent('.header__menu-container', headerMenu
 headerMenu.addPageClassActive();
 headerMenu.setActiveClassMenuItem();
 
-new FooterMenuComponent('.footer__bottom-menu', headerMenuPages, '.footer__bottom-menu-item');
+new FooterMenuComponent('.footer__bottom-menu', headerMenuPages, '.footer__bottom-menu-item', '.header__menu-container', '.header__menu-item');
