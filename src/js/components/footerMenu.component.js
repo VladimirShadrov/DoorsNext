@@ -5,8 +5,8 @@ export class FooterMenuComponent extends Menu {
   constructor(container, sitePagesArray, menuComponents, headerMenuContainer, headerMenuItem, footer) {
     super(container, sitePagesArray, menuComponents);
 
-    this.footer = footer;
-    console.log(footer)
+    // this.footer = footer;
+    // console.log(footer)
         
     this.headerMenu = new HeaderMenuComponent(headerMenuContainer, sitePagesArray, headerMenuItem);
 
