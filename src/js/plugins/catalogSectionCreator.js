@@ -73,18 +73,6 @@ export function catalogSectionCreator() {
     </div>
     <div class="goods-catalog__catalog">
       <div class="goods-catalog__catalog-container">
-        <div class="goods-catalog__item">
-          <img class="goods-catalog__img" src="./images/doors/dust-laminat1.jpg" alt="img">
-          <h3 class="goods-catalog__item-title">
-            Порошок - Ламинат №1
-          </h3>
-          <span class="goods-catalog__price">
-            от 7 500 руб.
-          </span>
-          <p class="goods-catalog__description">
-            Порошковое напыление + Ламинат
-          </p>
-        </div>
       </div>
     </div>
   </div>
