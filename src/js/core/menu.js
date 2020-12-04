@@ -32,7 +32,6 @@ export class Menu {
     window.scrollTo(0, 0);
     currentPage.classList.remove('hide')
     currentPage.style.opacity = 1;
-
   }
 }
 
