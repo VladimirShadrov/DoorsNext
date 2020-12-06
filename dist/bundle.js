@@ -166,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"catalogItemsArray\": function() { return /* binding */ catalogItemsArray; }\n/* harmony export */ });\nvar catalogItemsArray = [{\n  title: 'Антивандальная дверь для частного дома',\n  image: '../images/doors/dust-laminat1.jpg',\n  price: 9500,\n  description: 'Порошковое напыление + Ламинат'\n}, {\n  title: 'Антивандальная дверь для частного дома',\n  image: '../images/doors/dust-laminat1.jpg',\n  price: 9500,\n  description: 'Порошковое напыление + Ламинат'\n}, {\n  title: 'Антивандальная дверь для частного дома',\n  image: '../images/doors/dust-laminat1.jpg',\n  price: 9500,\n  description: 'Порошковое напыление + Ламинат'\n}, {\n  title: 'Антивандальная дверь для частного дома',\n  image: '../images/doors/dust-laminat1.jpg',\n  price: 9500,\n  description: 'Порошковое напыление + Ламинат'\n}];\n\n//# sourceURL=webpack:///./js/data/data.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"catalogItemsArray\": function() { return /* binding */ catalogItemsArray; }\n/* harmony export */ });\nvar catalogItemsArray = [{\n  title: 'Входная дверь Т-1',\n  image: './images/doors/dust-laminat1.jpg',\n  price: 9500,\n  description: 'Порошковое напыление + Ламинат',\n  productCardTitle: 'Дверь Т-1 (Порошковое покрытие + Ламинат)',\n  outside: 'Порошковое напыление ',\n  inside: 'Ламинат'\n}, {\n  title: 'Входная дверь Т-2',\n  image: './images/doors/dust-laminat4.jpg',\n  price: 9990,\n  description: 'Порошковое напыление + Ламинат',\n  productCardTitle: 'Дверь Т-2 (Порошковое покрытие + Ламинат)',\n  outside: 'Порошковое напыление ',\n  inside: 'Ламинат'\n}, {\n  title: 'Входная дверь Т-3',\n  image: './images/doors/dust-laminat6.jpg',\n  price: 8300,\n  description: 'Порошковое напыление + Ламинат',\n  productCardTitle: 'Дверь Т-3 (Порошковое покрытие + Ламинат)',\n  outside: 'Порошковое напыление ',\n  inside: 'Ламинат'\n}, {\n  title: 'Входная дверь Т-4',\n  image: './images/doors/dust-laminat5.jpg',\n  price: 10400,\n  description: 'Порошковое напыление + Ламинат',\n  productCardTitle: 'Дверь Т-4 (Порошковое покрытие + Ламинат)',\n  outside: 'Порошковое напыление ',\n  inside: 'Ламинат'\n}, {\n  title: 'Входная дверь Т-5',\n  image: './images/doors/dust-mdf1.png',\n  price: 17000,\n  description: 'Порошковое напыление + МДФ ПВХ',\n  productCardTitle: 'Дверь Т-5 (Порошковое напыление + МДФ ПВХ)',\n  outside: 'Порошковое напыление ',\n  inside: 'МДФ'\n}, {\n  title: 'Входная дверь Т-6',\n  image: './images/doors/dust-vinil.jpg',\n  price: 7500,\n  description: 'Порошковое напыление + Винилискожа',\n  productCardTitle: 'Дверь Т-6 (Порошковое напыление + Винилискожа)',\n  outside: 'Порошковое напыление ',\n  inside: 'Винилискожа'\n}, {\n  title: 'Входная дверь Т-7',\n  image: './images/doors/dust-vinil1.jpg',\n  price: 8700,\n  description: 'Порошковое напыление + Винилискожа',\n  productCardTitle: 'Дверь Т-7 (Порошковое напыление + Винилискожа)',\n  outside: 'Порошковое напыление',\n  inside: 'Винилискожа'\n}, {\n  title: 'Входная дверь Т-8',\n  image: './images/doors/laminat-laminat1.jpg',\n  price: 8700,\n  description: 'Ламинат + Ламинат',\n  productCardTitle: 'Дверь Т-8 (Ламинат + Ламинат)',\n  outside: 'Ламинат',\n  inside: 'Ламинат'\n}, {\n  title: 'Входная дверь Т-9',\n  image: './images/doors/laminat-laminat2.jpg',\n  price: 18700,\n  description: 'Ламинат + Ламинат',\n  productCardTitle: 'Дверь Т-9 (Ламинат + Ламинат)',\n  outside: 'Ламинат',\n  inside: 'Ламинат'\n}, {\n  title: 'Входная дверь Т-10',\n  image: './images/doors/laminat-laminat3.png',\n  price: 13200,\n  description: 'Ламинат + Ламинат',\n  productCardTitle: 'Дверь Т-10 (Ламинат + Ламинат)',\n  outside: 'Ламинат',\n  inside: 'Ламинат'\n}, {\n  title: 'Входная дверь Т-11',\n  image: './images/doors/laminat-mdf1.jpg',\n  price: 13200,\n  description: 'Ламинат + Ламинат',\n  productCardTitle: 'Дверь Т-11 (Ламинат + МДФ)',\n  outside: 'Ламинат',\n  inside: 'МДФ'\n}, {\n  title: 'Входная дверь Т-12',\n  image: './images/doors/laminat-vinil1.jpg',\n  price: 9200,\n  description: 'Ламинат + Винилискожа',\n  productCardTitle: 'Дверь Т-12 (Ламинат + Винилискожа)',\n  outside: 'Ламинат',\n  inside: 'Винилискожа'\n}, {\n  title: 'Входная дверь Т-13',\n  image: './images/doors/mdf-laminat1.png',\n  price: 11400,\n  description: 'МДФ ПВХ + Ламинат',\n  productCardTitle: 'Дверь Т-13 (МДФ ПВХ + Ламинат)',\n  outside: 'МДФ',\n  inside: 'Ламинат'\n}, {\n  title: 'Входная дверь Т-14',\n  image: './images/doors/mdf-laminat2.jpg',\n  price: 10700,\n  description: 'МДФ ПВХ + Ламинат',\n  productCardTitle: 'Дверь Т-14 (МДФ ПВХ + Ламинат)',\n  outside: 'МДФ',\n  inside: 'Ламинат'\n}, {\n  title: 'Входная дверь Т-15',\n  image: './images/doors/mdf-mdf1.jpg',\n  price: 10700,\n  description: 'МДФ ПВХ + МДФ ПВХ',\n  productCardTitle: 'Дверь Т-15 (МДФ ПВХ + МДФ ПВХ)',\n  outside: 'МДФ',\n  inside: 'МДФ'\n}, {\n  title: 'Входная дверь Т-16',\n  image: './images/doors/mdf-mdf2.jpg',\n  price: 9200,\n  description: 'МДФ ПВХ + МДФ ПВХ',\n  productCardTitle: 'Дверь Т-16 (МДФ ПВХ + МДФ ПВХ)',\n  outside: 'МДФ',\n  inside: 'МДФ'\n}, {\n  title: 'Входная дверь Т-17',\n  image: './images/doors/mdf-vinil1.jpg',\n  price: 9800,\n  description: 'МДФ ПВХ + Винилискожа',\n  productCardTitle: 'Дверь Т-17 (МДФ ПВХ + Винилискожа)',\n  outside: 'МДФ',\n  inside: 'Винилискожа'\n}, {\n  title: 'Входная дверь Т-18',\n  image: './images/doors/mdf-vinil2.png',\n  price: 10900,\n  description: 'МДФ ПВХ + Винилискожа',\n  productCardTitle: 'Дверь Т-18 (МДФ ПВХ + Винилискожа)',\n  outside: 'МДФ',\n  inside: 'Винилискожа'\n}];\n\n//# sourceURL=webpack:///./js/data/data.js?");
 
 /***/ }),
 
@@ -180,7 +180,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/header.scss */ \"./styles/header.scss\");\n/* harmony import */ var _styles_modal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/modal.scss */ \"./styles/modal.scss\");\n/* harmony import */ var _styles_banner_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/banner.scss */ \"./styles/banner.scss\");\n/* harmony import */ var _styles_hits_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/hits.scss */ \"./styles/hits.scss\");\n/* harmony import */ var _styles_main_page_catalog_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/main-page-catalog.scss */ \"./styles/main-page-catalog.scss\");\n/* harmony import */ var _styles_choose_us_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/choose-us.scss */ \"./styles/choose-us.scss\");\n/* harmony import */ var _styles_how_to_choose_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/how-to-choose.scss */ \"./styles/how-to-choose.scss\");\n/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/footer.scss */ \"./styles/footer.scss\");\n/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/about.scss */ \"./styles/about.scss\");\n/* harmony import */ var _styles_delivery_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/delivery.scss */ \"./styles/delivery.scss\");\n/* harmony import */ var _styles_price_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../styles/price.scss */ \"./styles/price.scss\");\n/* harmony import */ var _styles_guarantee_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../styles/guarantee.scss */ \"./styles/guarantee.scss\");\n/* harmony import */ var _styles_contacts_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../styles/contacts.scss */ \"./styles/contacts.scss\");\n/* harmony import */ var _styles_goods_catalog_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../styles/goods-catalog.scss */ \"./styles/goods-catalog.scss\");\n/* harmony import */ var _styles_product_card_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../styles/product-card.scss */ \"./styles/product-card.scss\");\n/* harmony import */ var _components_burgerMenu_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/burgerMenu.component */ \"./js/components/burgerMenu.component.js\");\n/* harmony import */ var _components_callback_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/callback.component */ \"./js/components/callback.component.js\");\n/* harmony import */ var _components_headerMenu_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/headerMenu.component */ \"./js/components/headerMenu.component.js\");\n/* harmony import */ var _components_footerMenu_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/footerMenu.component */ \"./js/components/footerMenu.component.js\");\n/* harmony import */ var _components_topBanner_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/topBanner.component */ \"./js/components/topBanner.component.js\");\n/* harmony import */ var _plugins_catalogSectionCreator__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./plugins/catalogSectionCreator */ \"./js/plugins/catalogSectionCreator.js\");\n/* harmony import */ var _components_catalog_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/catalog.component */ \"./js/components/catalog.component.js\");\n/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./data/data */ \"./js/data/data.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar header = document.querySelector('.header');\nvar footer = document.querySelector('.footer');\nvar mainPage = document.querySelector('.main-page');\nvar aboutUsSection = document.querySelector('.about');\nvar deliverySection = document.querySelector('.delivery');\nvar priceSection = document.querySelector('.price');\nvar guaranteeSection = document.querySelector('.guarantee');\nvar contactsSection = document.querySelector('.contacts');\nvar goodsCatalogSection = document.querySelector('.goods-catalog');\nvar productCardSection = document.querySelector('.product-card');\nvar headerMenuPages = [mainPage, aboutUsSection, deliverySection, priceSection, guaranteeSection, contactsSection, goodsCatalogSection, productCardSection];\nvar callbackPanel = document.querySelector('.callback-panel');\nvar catalogItems = Object.assign(_data_data__WEBPACK_IMPORTED_MODULE_23__.catalogItemsArray);\nnew _components_burgerMenu_component__WEBPACK_IMPORTED_MODULE_16__.BurgerMenuComponent(header, headerMenuPages, '.header__menu-container', '.header__menu-item');\nnew _components_callback_component__WEBPACK_IMPORTED_MODULE_17__.Callback(callbackPanel);\nvar headerMenu = new _components_headerMenu_component__WEBPACK_IMPORTED_MODULE_18__.HeaderMenuComponent('.header__menu-container', headerMenuPages, '.header__menu-item');\nnew _components_footerMenu_component__WEBPACK_IMPORTED_MODULE_19__.FooterMenuComponent('.footer', headerMenuPages, '.header__menu-item');\nnew _components_topBanner_component__WEBPACK_IMPORTED_MODULE_20__.TopBannerComponent('.banner', '.header__menu-container', headerMenuPages, '.header__menu-item');\nnew _components_catalog_component__WEBPACK_IMPORTED_MODULE_22__.CatalogComponent('.goods-catalog', catalogItems);\n\nfunction showCurrentSitePage() {\n  var currentPage = headerMenu.getCurrentPageFromSessionStorage();\n  headerMenu.addPageClassActive();\n\n  if (currentPage === 'catalog') {\n    headerMenu.removeActiveClassMenuItems();\n  } else {\n    headerMenu.setActiveClassMenuItem();\n  }\n}\n\n;\nshowCurrentSitePage(); // Перенос изображений и шрифтов в папку \"dist\"\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/header.scss */ \"./styles/header.scss\");\n/* harmony import */ var _styles_modal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/modal.scss */ \"./styles/modal.scss\");\n/* harmony import */ var _styles_banner_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/banner.scss */ \"./styles/banner.scss\");\n/* harmony import */ var _styles_hits_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/hits.scss */ \"./styles/hits.scss\");\n/* harmony import */ var _styles_main_page_catalog_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/main-page-catalog.scss */ \"./styles/main-page-catalog.scss\");\n/* harmony import */ var _styles_choose_us_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/choose-us.scss */ \"./styles/choose-us.scss\");\n/* harmony import */ var _styles_how_to_choose_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/how-to-choose.scss */ \"./styles/how-to-choose.scss\");\n/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/footer.scss */ \"./styles/footer.scss\");\n/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/about.scss */ \"./styles/about.scss\");\n/* harmony import */ var _styles_delivery_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../styles/delivery.scss */ \"./styles/delivery.scss\");\n/* harmony import */ var _styles_price_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../styles/price.scss */ \"./styles/price.scss\");\n/* harmony import */ var _styles_guarantee_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../styles/guarantee.scss */ \"./styles/guarantee.scss\");\n/* harmony import */ var _styles_contacts_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../styles/contacts.scss */ \"./styles/contacts.scss\");\n/* harmony import */ var _styles_goods_catalog_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../styles/goods-catalog.scss */ \"./styles/goods-catalog.scss\");\n/* harmony import */ var _styles_product_card_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../styles/product-card.scss */ \"./styles/product-card.scss\");\n/* harmony import */ var _components_burgerMenu_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/burgerMenu.component */ \"./js/components/burgerMenu.component.js\");\n/* harmony import */ var _components_callback_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/callback.component */ \"./js/components/callback.component.js\");\n/* harmony import */ var _components_headerMenu_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/headerMenu.component */ \"./js/components/headerMenu.component.js\");\n/* harmony import */ var _components_footerMenu_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/footerMenu.component */ \"./js/components/footerMenu.component.js\");\n/* harmony import */ var _components_topBanner_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/topBanner.component */ \"./js/components/topBanner.component.js\");\n/* harmony import */ var _plugins_catalogSectionCreator__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./plugins/catalogSectionCreator */ \"./js/plugins/catalogSectionCreator.js\");\n/* harmony import */ var _components_catalog_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/catalog.component */ \"./js/components/catalog.component.js\");\n/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./data/data */ \"./js/data/data.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar header = document.querySelector('.header');\nvar footer = document.querySelector('.footer');\nvar mainPage = document.querySelector('.main-page');\nvar aboutUsSection = document.querySelector('.about');\nvar deliverySection = document.querySelector('.delivery');\nvar priceSection = document.querySelector('.price');\nvar guaranteeSection = document.querySelector('.guarantee');\nvar contactsSection = document.querySelector('.contacts');\nvar goodsCatalogSection = document.querySelector('.goods-catalog');\nvar productCardSection = document.querySelector('.product-card');\nvar headerMenuPages = [mainPage, aboutUsSection, deliverySection, priceSection, guaranteeSection, contactsSection, goodsCatalogSection, productCardSection];\nvar callbackPanel = document.querySelector('.callback-panel');\nvar catalogItems = Object.assign(_data_data__WEBPACK_IMPORTED_MODULE_23__.catalogItemsArray).reverse();\nnew _components_burgerMenu_component__WEBPACK_IMPORTED_MODULE_16__.BurgerMenuComponent(header, headerMenuPages, '.header__menu-container', '.header__menu-item');\nnew _components_callback_component__WEBPACK_IMPORTED_MODULE_17__.Callback(callbackPanel);\nvar headerMenu = new _components_headerMenu_component__WEBPACK_IMPORTED_MODULE_18__.HeaderMenuComponent('.header__menu-container', headerMenuPages, '.header__menu-item');\nnew _components_footerMenu_component__WEBPACK_IMPORTED_MODULE_19__.FooterMenuComponent('.footer', headerMenuPages, '.header__menu-item');\nnew _components_topBanner_component__WEBPACK_IMPORTED_MODULE_20__.TopBannerComponent('.banner', '.header__menu-container', headerMenuPages, '.header__menu-item');\nnew _components_catalog_component__WEBPACK_IMPORTED_MODULE_22__.CatalogComponent('.goods-catalog', catalogItems);\n\nfunction showCurrentSitePage() {\n  var currentPage = headerMenu.getCurrentPageFromSessionStorage();\n  headerMenu.addPageClassActive();\n\n  if (currentPage === 'catalog') {\n    headerMenu.removeActiveClassMenuItems();\n  } else {\n    headerMenu.setActiveClassMenuItem();\n  }\n}\n\n;\nshowCurrentSitePage(); // Перенос изображений и шрифтов в папку \"dist\"\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 
@@ -4402,9 +4402,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./images/doors/dust-mdf1.jpg":
+/***/ "./images/doors/dust-mdf1.png":
 /*!************************************!*\
-  !*** ./images/doors/dust-mdf1.jpg ***!
+  !*** ./images/doors/dust-mdf1.png ***!
   \************************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -4413,7 +4413,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/dust-mdf1.jpg\");\n\n//# sourceURL=webpack:///./images/doors/dust-mdf1.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/dust-mdf1.png\");\n\n//# sourceURL=webpack:///./images/doors/dust-mdf1.png?");
 
 /***/ }),
 
@@ -4447,9 +4447,54 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./images/doors/laminat-mdf1.png":
+/***/ "./images/doors/laminat-laminat1.jpg":
+/*!*******************************************!*\
+  !*** ./images/doors/laminat-laminat1.jpg ***!
+  \*******************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/laminat-laminat1.jpg\");\n\n//# sourceURL=webpack:///./images/doors/laminat-laminat1.jpg?");
+
+/***/ }),
+
+/***/ "./images/doors/laminat-laminat2.jpg":
+/*!*******************************************!*\
+  !*** ./images/doors/laminat-laminat2.jpg ***!
+  \*******************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/laminat-laminat2.jpg\");\n\n//# sourceURL=webpack:///./images/doors/laminat-laminat2.jpg?");
+
+/***/ }),
+
+/***/ "./images/doors/laminat-laminat3.png":
+/*!*******************************************!*\
+  !*** ./images/doors/laminat-laminat3.png ***!
+  \*******************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/laminat-laminat3.png\");\n\n//# sourceURL=webpack:///./images/doors/laminat-laminat3.png?");
+
+/***/ }),
+
+/***/ "./images/doors/laminat-mdf1.jpg":
 /*!***************************************!*\
-  !*** ./images/doors/laminat-mdf1.png ***!
+  !*** ./images/doors/laminat-mdf1.jpg ***!
   \***************************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -4458,7 +4503,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/laminat-mdf1.png\");\n\n//# sourceURL=webpack:///./images/doors/laminat-mdf1.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/laminat-mdf1.jpg\");\n\n//# sourceURL=webpack:///./images/doors/laminat-mdf1.jpg?");
 
 /***/ }),
 
@@ -4477,9 +4522,39 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
-/***/ "./images/doors/laminat1.jpg":
+/***/ "./images/doors/mdf-laminat1.png":
+/*!***************************************!*\
+  !*** ./images/doors/mdf-laminat1.png ***!
+  \***************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf-laminat1.png\");\n\n//# sourceURL=webpack:///./images/doors/mdf-laminat1.png?");
+
+/***/ }),
+
+/***/ "./images/doors/mdf-laminat2.jpg":
+/*!***************************************!*\
+  !*** ./images/doors/mdf-laminat2.jpg ***!
+  \***************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf-laminat2.jpg\");\n\n//# sourceURL=webpack:///./images/doors/mdf-laminat2.jpg?");
+
+/***/ }),
+
+/***/ "./images/doors/mdf-mdf1.jpg":
 /*!***********************************!*\
-  !*** ./images/doors/laminat1.jpg ***!
+  !*** ./images/doors/mdf-mdf1.jpg ***!
   \***********************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -4488,13 +4563,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/laminat1.jpg\");\n\n//# sourceURL=webpack:///./images/doors/laminat1.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf-mdf1.jpg\");\n\n//# sourceURL=webpack:///./images/doors/mdf-mdf1.jpg?");
 
 /***/ }),
 
-/***/ "./images/doors/laminat2.jpg":
+/***/ "./images/doors/mdf-mdf2.jpg":
 /*!***********************************!*\
-  !*** ./images/doors/laminat2.jpg ***!
+  !*** ./images/doors/mdf-mdf2.jpg ***!
   \***********************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
@@ -4503,14 +4578,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/laminat2.jpg\");\n\n//# sourceURL=webpack:///./images/doors/laminat2.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf-mdf2.jpg\");\n\n//# sourceURL=webpack:///./images/doors/mdf-mdf2.jpg?");
 
 /***/ }),
 
-/***/ "./images/doors/laminat3.jpg":
-/*!***********************************!*\
-  !*** ./images/doors/laminat3.jpg ***!
-  \***********************************/
+/***/ "./images/doors/mdf-vinil1.jpg":
+/*!*************************************!*\
+  !*** ./images/doors/mdf-vinil1.jpg ***!
+  \*************************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */
@@ -4518,14 +4593,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/laminat3.jpg\");\n\n//# sourceURL=webpack:///./images/doors/laminat3.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf-vinil1.jpg\");\n\n//# sourceURL=webpack:///./images/doors/mdf-vinil1.jpg?");
 
 /***/ }),
 
-/***/ "./images/doors/mdf1.jpg":
-/*!*******************************!*\
-  !*** ./images/doors/mdf1.jpg ***!
-  \*******************************/
+/***/ "./images/doors/mdf-vinil2.png":
+/*!*************************************!*\
+  !*** ./images/doors/mdf-vinil2.png ***!
+  \*************************************/
 /*! namespace exports */
 /*! export default [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */
@@ -4533,52 +4608,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf1.jpg\");\n\n//# sourceURL=webpack:///./images/doors/mdf1.jpg?");
-
-/***/ }),
-
-/***/ "./images/doors/mdf2.jpg":
-/*!*******************************!*\
-  !*** ./images/doors/mdf2.jpg ***!
-  \*******************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf2.jpg\");\n\n//# sourceURL=webpack:///./images/doors/mdf2.jpg?");
-
-/***/ }),
-
-/***/ "./images/doors/mdf3.jpg":
-/*!*******************************!*\
-  !*** ./images/doors/mdf3.jpg ***!
-  \*******************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf3.jpg\");\n\n//# sourceURL=webpack:///./images/doors/mdf3.jpg?");
-
-/***/ }),
-
-/***/ "./images/doors/mdf4.jpg":
-/*!*******************************!*\
-  !*** ./images/doors/mdf4.jpg ***!
-  \*******************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.p, __webpack_require__.* */
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf4.jpg\");\n\n//# sourceURL=webpack:///./images/doors/mdf4.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/doors/mdf-vinil2.png\");\n\n//# sourceURL=webpack:///./images/doors/mdf-vinil2.png?");
 
 /***/ }),
 
@@ -5248,7 +5278,7 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /*! runtime requirements: module, __webpack_require__.o, __webpack_require__ */
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./choose-us/delivery.png\": \"./images/choose-us/delivery.png\",\n\t\"./choose-us/guarantee.png\": \"./images/choose-us/guarantee.png\",\n\t\"./choose-us/installation.png\": \"./images/choose-us/installation.png\",\n\t\"./choose-us/money.png\": \"./images/choose-us/money.png\",\n\t\"./colors/color1.jpg\": \"./images/colors/color1.jpg\",\n\t\"./colors/color10.jpg\": \"./images/colors/color10.jpg\",\n\t\"./colors/color2.jpg\": \"./images/colors/color2.jpg\",\n\t\"./colors/color3.jpg\": \"./images/colors/color3.jpg\",\n\t\"./colors/color4.jpg\": \"./images/colors/color4.jpg\",\n\t\"./colors/color5.jpg\": \"./images/colors/color5.jpg\",\n\t\"./colors/color6.jpg\": \"./images/colors/color6.jpg\",\n\t\"./colors/color7.jpg\": \"./images/colors/color7.jpg\",\n\t\"./colors/color8.jpg\": \"./images/colors/color8.jpg\",\n\t\"./colors/color9.jpg\": \"./images/colors/color9.jpg\",\n\t\"./delivery/banner-img.jpg\": \"./images/delivery/banner-img.jpg\",\n\t\"./doors/dust-laminat1.jpg\": \"./images/doors/dust-laminat1.jpg\",\n\t\"./doors/dust-laminat4.jpg\": \"./images/doors/dust-laminat4.jpg\",\n\t\"./doors/dust-laminat5.jpg\": \"./images/doors/dust-laminat5.jpg\",\n\t\"./doors/dust-laminat6.jpg\": \"./images/doors/dust-laminat6.jpg\",\n\t\"./doors/dust-mdf1.jpg\": \"./images/doors/dust-mdf1.jpg\",\n\t\"./doors/dust-vinil.jpg\": \"./images/doors/dust-vinil.jpg\",\n\t\"./doors/dust-vinil1.jpg\": \"./images/doors/dust-vinil1.jpg\",\n\t\"./doors/laminat-mdf1.png\": \"./images/doors/laminat-mdf1.png\",\n\t\"./doors/laminat-vinil1.jpg\": \"./images/doors/laminat-vinil1.jpg\",\n\t\"./doors/laminat1.jpg\": \"./images/doors/laminat1.jpg\",\n\t\"./doors/laminat2.jpg\": \"./images/doors/laminat2.jpg\",\n\t\"./doors/laminat3.jpg\": \"./images/doors/laminat3.jpg\",\n\t\"./doors/mdf1.jpg\": \"./images/doors/mdf1.jpg\",\n\t\"./doors/mdf2.jpg\": \"./images/doors/mdf2.jpg\",\n\t\"./doors/mdf3.jpg\": \"./images/doors/mdf3.jpg\",\n\t\"./doors/mdf4.jpg\": \"./images/doors/mdf4.jpg\",\n\t\"./hits/1-1.jpg\": \"./images/hits/1-1.jpg\",\n\t\"./hits/1.jpg\": \"./images/hits/1.jpg\",\n\t\"./hits/2-2.jpg\": \"./images/hits/2-2.jpg\",\n\t\"./hits/2.jpg\": \"./images/hits/2.jpg\",\n\t\"./hits/3-3.jpg\": \"./images/hits/3-3.jpg\",\n\t\"./hits/3.jpg\": \"./images/hits/3.jpg\",\n\t\"./hits/4-4.jpg\": \"./images/hits/4-4.jpg\",\n\t\"./hits/4.jpg\": \"./images/hits/4.jpg\",\n\t\"./hits/5-5.jpg\": \"./images/hits/5-5.jpg\",\n\t\"./hits/5.jpg\": \"./images/hits/5.jpg\",\n\t\"./locks/lock1.jpg\": \"./images/locks/lock1.jpg\",\n\t\"./locks/lock2.jpg\": \"./images/locks/lock2.jpg\",\n\t\"./logo/logo-image.jpg\": \"./images/logo/logo-image.jpg\",\n\t\"./logo/phone-icon.png\": \"./images/logo/phone-icon.png\",\n\t\"./main-page-catalog/dust-img.jpg\": \"./images/main-page-catalog/dust-img.jpg\",\n\t\"./main-page-catalog/laminat-img.jpg\": \"./images/main-page-catalog/laminat-img.jpg\",\n\t\"./main-page-catalog/mdf-img.jpg\": \"./images/main-page-catalog/mdf-img.jpg\",\n\t\"./main-page-catalog/vinil-img.jpg\": \"./images/main-page-catalog/vinil-img.jpg\",\n\t\"./modal/left.png\": \"./images/modal/left.png\",\n\t\"./product-card/finger.png\": \"./images/product-card/finger.png\",\n\t\"./product-card/key.png\": \"./images/product-card/key.png\",\n\t\"./product-card/watch.png\": \"./images/product-card/watch.png\",\n\t\"./top-banner/banner-background.jpg\": \"./images/top-banner/banner-background.jpg\",\n\t\"./top-banner/banner-bg.jpg\": \"./images/top-banner/banner-bg.jpg\",\n\t\"./top-banner/banner-main-img.jpg\": \"./images/top-banner/banner-main-img.jpg\",\n\t\"./top-banner/guarantee-icon.png\": \"./images/top-banner/guarantee-icon.png\",\n\t\"./top-banner/tools_icon.png\": \"./images/top-banner/tools_icon.png\",\n\t\"./top-banner/truck_icon.png\": \"./images/top-banner/truck_icon.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
+eval("var map = {\n\t\"./choose-us/delivery.png\": \"./images/choose-us/delivery.png\",\n\t\"./choose-us/guarantee.png\": \"./images/choose-us/guarantee.png\",\n\t\"./choose-us/installation.png\": \"./images/choose-us/installation.png\",\n\t\"./choose-us/money.png\": \"./images/choose-us/money.png\",\n\t\"./colors/color1.jpg\": \"./images/colors/color1.jpg\",\n\t\"./colors/color10.jpg\": \"./images/colors/color10.jpg\",\n\t\"./colors/color2.jpg\": \"./images/colors/color2.jpg\",\n\t\"./colors/color3.jpg\": \"./images/colors/color3.jpg\",\n\t\"./colors/color4.jpg\": \"./images/colors/color4.jpg\",\n\t\"./colors/color5.jpg\": \"./images/colors/color5.jpg\",\n\t\"./colors/color6.jpg\": \"./images/colors/color6.jpg\",\n\t\"./colors/color7.jpg\": \"./images/colors/color7.jpg\",\n\t\"./colors/color8.jpg\": \"./images/colors/color8.jpg\",\n\t\"./colors/color9.jpg\": \"./images/colors/color9.jpg\",\n\t\"./delivery/banner-img.jpg\": \"./images/delivery/banner-img.jpg\",\n\t\"./doors/dust-laminat1.jpg\": \"./images/doors/dust-laminat1.jpg\",\n\t\"./doors/dust-laminat4.jpg\": \"./images/doors/dust-laminat4.jpg\",\n\t\"./doors/dust-laminat5.jpg\": \"./images/doors/dust-laminat5.jpg\",\n\t\"./doors/dust-laminat6.jpg\": \"./images/doors/dust-laminat6.jpg\",\n\t\"./doors/dust-mdf1.png\": \"./images/doors/dust-mdf1.png\",\n\t\"./doors/dust-vinil.jpg\": \"./images/doors/dust-vinil.jpg\",\n\t\"./doors/dust-vinil1.jpg\": \"./images/doors/dust-vinil1.jpg\",\n\t\"./doors/laminat-laminat1.jpg\": \"./images/doors/laminat-laminat1.jpg\",\n\t\"./doors/laminat-laminat2.jpg\": \"./images/doors/laminat-laminat2.jpg\",\n\t\"./doors/laminat-laminat3.png\": \"./images/doors/laminat-laminat3.png\",\n\t\"./doors/laminat-mdf1.jpg\": \"./images/doors/laminat-mdf1.jpg\",\n\t\"./doors/laminat-vinil1.jpg\": \"./images/doors/laminat-vinil1.jpg\",\n\t\"./doors/mdf-laminat1.png\": \"./images/doors/mdf-laminat1.png\",\n\t\"./doors/mdf-laminat2.jpg\": \"./images/doors/mdf-laminat2.jpg\",\n\t\"./doors/mdf-mdf1.jpg\": \"./images/doors/mdf-mdf1.jpg\",\n\t\"./doors/mdf-mdf2.jpg\": \"./images/doors/mdf-mdf2.jpg\",\n\t\"./doors/mdf-vinil1.jpg\": \"./images/doors/mdf-vinil1.jpg\",\n\t\"./doors/mdf-vinil2.png\": \"./images/doors/mdf-vinil2.png\",\n\t\"./hits/1-1.jpg\": \"./images/hits/1-1.jpg\",\n\t\"./hits/1.jpg\": \"./images/hits/1.jpg\",\n\t\"./hits/2-2.jpg\": \"./images/hits/2-2.jpg\",\n\t\"./hits/2.jpg\": \"./images/hits/2.jpg\",\n\t\"./hits/3-3.jpg\": \"./images/hits/3-3.jpg\",\n\t\"./hits/3.jpg\": \"./images/hits/3.jpg\",\n\t\"./hits/4-4.jpg\": \"./images/hits/4-4.jpg\",\n\t\"./hits/4.jpg\": \"./images/hits/4.jpg\",\n\t\"./hits/5-5.jpg\": \"./images/hits/5-5.jpg\",\n\t\"./hits/5.jpg\": \"./images/hits/5.jpg\",\n\t\"./locks/lock1.jpg\": \"./images/locks/lock1.jpg\",\n\t\"./locks/lock2.jpg\": \"./images/locks/lock2.jpg\",\n\t\"./logo/logo-image.jpg\": \"./images/logo/logo-image.jpg\",\n\t\"./logo/phone-icon.png\": \"./images/logo/phone-icon.png\",\n\t\"./main-page-catalog/dust-img.jpg\": \"./images/main-page-catalog/dust-img.jpg\",\n\t\"./main-page-catalog/laminat-img.jpg\": \"./images/main-page-catalog/laminat-img.jpg\",\n\t\"./main-page-catalog/mdf-img.jpg\": \"./images/main-page-catalog/mdf-img.jpg\",\n\t\"./main-page-catalog/vinil-img.jpg\": \"./images/main-page-catalog/vinil-img.jpg\",\n\t\"./modal/left.png\": \"./images/modal/left.png\",\n\t\"./product-card/finger.png\": \"./images/product-card/finger.png\",\n\t\"./product-card/key.png\": \"./images/product-card/key.png\",\n\t\"./product-card/watch.png\": \"./images/product-card/watch.png\",\n\t\"./top-banner/banner-background.jpg\": \"./images/top-banner/banner-background.jpg\",\n\t\"./top-banner/banner-bg.jpg\": \"./images/top-banner/banner-bg.jpg\",\n\t\"./top-banner/banner-main-img.jpg\": \"./images/top-banner/banner-main-img.jpg\",\n\t\"./top-banner/guarantee-icon.png\": \"./images/top-banner/guarantee-icon.png\",\n\t\"./top-banner/tools_icon.png\": \"./images/top-banner/tools_icon.png\",\n\t\"./top-banner/truck_icon.png\": \"./images/top-banner/truck_icon.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
 
 /***/ })
 

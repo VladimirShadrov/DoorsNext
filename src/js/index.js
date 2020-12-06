@@ -35,7 +35,7 @@ const goodsCatalogSection = document.querySelector('.goods-catalog');
 const productCardSection = document.querySelector('.product-card');
 const headerMenuPages = [mainPage, aboutUsSection, deliverySection, priceSection, guaranteeSection, contactsSection, goodsCatalogSection, productCardSection];
 const callbackPanel = document.querySelector('.callback-panel');
-const catalogItems = Object.assign(catalogItemsArray);
+const catalogItems = Object.assign(catalogItemsArray).reverse();
 
 new BurgerMenuComponent(header, headerMenuPages, '.header__menu-container', '.header__menu-item');
 new Callback(callbackPanel);
