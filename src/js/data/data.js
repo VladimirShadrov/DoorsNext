@@ -7,6 +7,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-1 (Порошковое покрытие + Ламинат)', 
     outside: 'Порошковое напыление ',
     inside: 'Ламинат',
+    id: 't-1'
   },
   {
     title: 'Входная дверь Т-2',
@@ -16,6 +17,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-2 (Порошковое покрытие + Ламинат)', 
     outside: 'Порошковое напыление ',
     inside: 'Ламинат',
+    id: 't-2'
   },
   {
     title: 'Входная дверь Т-3',
@@ -25,6 +27,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-3 (Порошковое покрытие + Ламинат)', 
     outside: 'Порошковое напыление ',
     inside: 'Ламинат',
+    id: 't-3'
   },
   {
     title: 'Входная дверь Т-4',
@@ -34,6 +37,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-4 (Порошковое покрытие + Ламинат)', 
     outside: 'Порошковое напыление ',
     inside: 'Ламинат',
+    id: 't-4'
   },
   {
     title: 'Входная дверь Т-5',
@@ -43,6 +47,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-5 (Порошковое напыление + МДФ ПВХ)', 
     outside: 'Порошковое напыление ',
     inside: 'МДФ',
+    id: 't-5'
   },
   {
     title: 'Входная дверь Т-6',
@@ -52,6 +57,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-6 (Порошковое напыление + Винилискожа)', 
     outside: 'Порошковое напыление ',
     inside: 'Винилискожа',
+    id: 't-6'
   },
   {
     title: 'Входная дверь Т-7',
@@ -61,6 +67,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-7 (Порошковое напыление + Винилискожа)', 
     outside: 'Порошковое напыление',
     inside: 'Винилискожа',
+    id: 't-7'
   }, 
   {
     title: 'Входная дверь Т-8',
@@ -70,6 +77,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-8 (Ламинат + Ламинат)', 
     outside: 'Ламинат',
     inside: 'Ламинат',
+    id: 't-8'
   },
   {
     title: 'Входная дверь Т-9',
@@ -79,6 +87,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-9 (Ламинат + Ламинат)', 
     outside: 'Ламинат',
     inside: 'Ламинат',
+    id: 't-9'
   },
   {
     title: 'Входная дверь Т-10',
@@ -88,6 +97,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-10 (Ламинат + Ламинат)', 
     outside: 'Ламинат',
     inside: 'Ламинат',
+    id: 't-10'
   },
   {
     title: 'Входная дверь Т-11',
@@ -97,6 +107,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-11 (Ламинат + МДФ)', 
     outside: 'Ламинат',
     inside: 'МДФ',
+    id: 't-11'
   },
   {
     title: 'Входная дверь Т-12',
@@ -106,6 +117,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-12 (Ламинат + Винилискожа)', 
     outside: 'Ламинат',
     inside: 'Винилискожа',
+    id: 't-12'
   },
   {
     title: 'Входная дверь Т-13',
@@ -115,6 +127,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-13 (МДФ ПВХ + Ламинат)', 
     outside: 'МДФ',
     inside: 'Ламинат',
+    id: 't-13'
   },
   {
     title: 'Входная дверь Т-14',
@@ -124,6 +137,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-14 (МДФ ПВХ + Ламинат)', 
     outside: 'МДФ',
     inside: 'Ламинат',
+    id: 't-14'
   },
   {
     title: 'Входная дверь Т-15',
@@ -133,6 +147,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-15 (МДФ ПВХ + МДФ ПВХ)', 
     outside: 'МДФ',
     inside: 'МДФ',
+    id: 't-15'
   },
   {
     title: 'Входная дверь Т-16',
@@ -142,6 +157,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-16 (МДФ ПВХ + МДФ ПВХ)', 
     outside: 'МДФ',
     inside: 'МДФ',
+    id: 't-16'
   },
   {
     title: 'Входная дверь Т-17',
@@ -151,6 +167,7 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-17 (МДФ ПВХ + Винилискожа)', 
     outside: 'МДФ',
     inside: 'Винилискожа',
+    id: 't-17'
   },
   {
     title: 'Входная дверь Т-18',
@@ -160,5 +177,6 @@ export const catalogItemsArray = [
     productCardTitle: 'Дверь Т-18 (МДФ ПВХ + Винилискожа)', 
     outside: 'МДФ',
     inside: 'Винилискожа',
+    id: 't-18'
   }
 ];

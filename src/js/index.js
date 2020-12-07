@@ -22,6 +22,8 @@ import { TopBannerComponent } from './components/topBanner.component';
 import { catalogSectionCreator } from './plugins/catalogSectionCreator';
 import { CatalogComponent } from './components/catalog.component';
 import { catalogItemsArray } from './data/data';
+import { LogoComponent } from './components/logo.component';
+import { LogoFooterComponent } from './components/logoFooter.Component';
 
 const header = document.querySelector('.header');
 const footer = document.querySelector('.footer');
@@ -43,6 +45,8 @@ const headerMenu = new HeaderMenuComponent('.header__menu-container', headerMenu
 new FooterMenuComponent('.footer' , headerMenuPages,'.header__menu-item');
 new TopBannerComponent('.banner', '.header__menu-container', headerMenuPages, '.header__menu-item');
 new CatalogComponent('.goods-catalog', catalogItems);
+new LogoComponent('.header', '.header__menu-container', headerMenuPages, '.header__menu-item');
+new LogoFooterComponent('.footer', '.header__menu-container', headerMenuPages, '.header__menu-item');
 
 
 function showCurrentSitePage() {
