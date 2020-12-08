@@ -44,7 +44,7 @@ new Callback(callbackPanel);
 const headerMenu = new HeaderMenuComponent('.header__menu-container', headerMenuPages, '.header__menu-item');
 new FooterMenuComponent('.footer' , headerMenuPages,'.header__menu-item');
 new TopBannerComponent('.banner', '.header__menu-container', headerMenuPages, '.header__menu-item');
-new CatalogComponent('.goods-catalog', catalogItems);
+new CatalogComponent('.goods-catalog', catalogItems, headerMenuPages, '.header__menu-item');
 new LogoComponent('.header', '.header__menu-container', headerMenuPages, '.header__menu-item');
 new LogoFooterComponent('.footer', '.header__menu-container', headerMenuPages, '.header__menu-item');
 
