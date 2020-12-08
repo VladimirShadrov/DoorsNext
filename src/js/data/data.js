@@ -103,7 +103,7 @@ export const catalogItemsArray = [
     title: 'Входная дверь Т-11',
     image: './images/doors/laminat-mdf1.jpg',
     price: 13200,
-    description: 'Ламинат + Ламинат',
+    description: 'Ламинат + МДФ',
     productCardTitle: 'Дверь Т-11 (Ламинат + МДФ)', 
     outside: 'Ламинат',
     inside: 'МДФ',

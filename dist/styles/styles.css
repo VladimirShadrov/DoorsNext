@@ -2107,6 +2107,9 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 15px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 20px; }
@@ -2129,13 +2132,15 @@ body {
       width: 0; }
   .product-card__price-title, .product-card__price {
     font-size: 30px;
-    font-weight: bold; }
+    font-weight: bold;
+    text-align: center; }
   .product-card__price {
     color: darkorange;
     display: inline-block; }
   .product-card__button {
     display: block;
     margin: 0 auto;
+    margin-bottom: 15px;
     border: 2px solid transparent;
     border-radius: 25px;
     padding: 15px 25px;
@@ -2152,6 +2157,26 @@ body {
       background-color: white;
       color: #282828;
       border: 2px solid darkorange; }
+  .product-card__link-btn {
+    display: block;
+    margin: 0 auto;
+    max-width: 168px;
+    text-align: center;
+    color: #282828;
+    padding: 15px 10px;
+    border: 2px solid darkorange;
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+    .product-card__link-btn:hover {
+      border: 2px solid transparent;
+      background-color: darkorange;
+      color: white; }
   .product-card__locks-container {
     width: 100%; }
   .product-card__lock-title {

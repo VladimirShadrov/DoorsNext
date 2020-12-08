@@ -25,6 +25,7 @@ import { catalogItemsArray } from './data/data';
 import { LogoComponent } from './components/logo.component';
 import { LogoFooterComponent } from './components/logoFooter.Component';
 
+
 const header = document.querySelector('.header');
 const footer = document.querySelector('.footer');
 const mainPage = document.querySelector('.main-page');
@@ -42,19 +43,19 @@ const catalogItems = Object.assign(catalogItemsArray).reverse();
 new BurgerMenuComponent(header, headerMenuPages, '.header__menu-container', '.header__menu-item');
 new Callback(callbackPanel);
 const headerMenu = new HeaderMenuComponent('.header__menu-container', headerMenuPages, '.header__menu-item');
-new FooterMenuComponent('.footer' , headerMenuPages,'.header__menu-item');
+new FooterMenuComponent('.footer', headerMenuPages, '.header__menu-item');
 new TopBannerComponent('.banner', '.header__menu-container', headerMenuPages, '.header__menu-item');
-new CatalogComponent('.goods-catalog', catalogItems, headerMenuPages, '.header__menu-item');
+new CatalogComponent('.goods-catalog', catalogItems, headerMenuPages, productCardSection);
 new LogoComponent('.header', '.header__menu-container', headerMenuPages, '.header__menu-item');
 new LogoFooterComponent('.footer', '.header__menu-container', headerMenuPages, '.header__menu-item');
 
 
 function showCurrentSitePage() {
   const currentPage = headerMenu.getCurrentPageFromSessionStorage();
-  
+
   headerMenu.addPageClassActive();
-  
-  if (currentPage === 'catalog') {
+
+  if (currentPage === 'catalog' || currentPage === 'product-card') {
     headerMenu.removeActiveClassMenuItems();
   } else {
     headerMenu.setActiveClassMenuItem();
