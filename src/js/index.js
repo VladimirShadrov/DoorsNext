@@ -49,7 +49,7 @@ new TopBannerComponent('.banner', '.header__menu-container', headerMenuPages, '.
 new CatalogComponent('.goods-catalog', catalogItems, headerMenuPages, productCardSection);
 new LogoComponent('.header', '.header__menu-container', headerMenuPages, '.header__menu-item');
 new LogoFooterComponent('.footer', '.header__menu-container', headerMenuPages, '.header__menu-item');
-new HitsComponent('.hits');
+new HitsComponent('.hits', '.goods-catalog', catalogItems, headerMenuPages, productCardSection, '.header__menu-container', '.header__menu-item');
 
 
 function showCurrentSitePage() {

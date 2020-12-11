@@ -13,7 +13,7 @@ export function createSlide(options) {
     <div class="hits__description-material">
       ${options.description}
     </div>
-    <button class="hits__description-button">
+    <button class="hits__description-button" data-id="${options.id}">
       подробнее о модели
     </button>
   </div>
