@@ -38,14 +38,13 @@ export class CatalogComponent extends Component {
     const currentProductId = sessionStorage.getItem('currentProduct') || this.catalogItems[this.catalogItems.length - 1].id;
     const currentProductItem = this.catalogItems.find(item => item.id === currentProductId);
     const productCreator = productCardCreator(currentProductItem);
-    
+
     this.productContainer.firstElementChild.innerHTML = '';
     this.productContainer.firstElementChild.insertAdjacentHTML('afterbegin', productCreator);
   }
   
   init() {
     this.el.addEventListener('click', catalogItemClickHendler.bind(this));
-
   }
 }
 

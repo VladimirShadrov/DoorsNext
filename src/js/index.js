@@ -24,6 +24,7 @@ import { CatalogComponent } from './components/catalog.component';
 import { catalogItemsArray } from './data/data';
 import { LogoComponent } from './components/logo.component';
 import { LogoFooterComponent } from './components/logoFooter.Component';
+import { HitsComponent } from './components/hits.component';
 
 
 const header = document.querySelector('.header');
@@ -48,6 +49,7 @@ new TopBannerComponent('.banner', '.header__menu-container', headerMenuPages, '.
 new CatalogComponent('.goods-catalog', catalogItems, headerMenuPages, productCardSection);
 new LogoComponent('.header', '.header__menu-container', headerMenuPages, '.header__menu-item');
 new LogoFooterComponent('.footer', '.header__menu-container', headerMenuPages, '.header__menu-item');
+new HitsComponent('.hits');
 
 
 function showCurrentSitePage() {
