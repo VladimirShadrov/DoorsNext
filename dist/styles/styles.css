@@ -872,6 +872,9 @@ body {
     text-align: center; }
   .hits__slider-wrapper {
     overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: relative;
     width: 96%;
     margin: 0 auto; }
@@ -879,10 +882,15 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    width: 126%; }
+    width: 126%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
   .hits__item {
     background-color: white;
     padding: 20px;

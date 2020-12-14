@@ -21,6 +21,7 @@ export class CatalogComponent extends Component {
 
   
   renderCatalogSection() {
+    this.catalogContainer.innerHTML = '';
     this.catalogContainer.insertAdjacentHTML('afterbegin', this.catalogSection);
   }
   
