@@ -5,7 +5,7 @@ export const catalogItemsArray = [
     price: 9500,
     description: 'Порошковое напыление + Ламинат',
     productCardTitle: 'Дверь Т-1 (Порошковое покрытие + Ламинат)', 
-    outside: 'Порошковое напыление ',
+    outside: 'Порошковое напыление',
     inside: 'Ламинат',
     id: 't-1'
   },
@@ -15,7 +15,7 @@ export const catalogItemsArray = [
     price: 9990,
     description: 'Порошковое напыление + Ламинат',
     productCardTitle: 'Дверь Т-2 (Порошковое покрытие + Ламинат)', 
-    outside: 'Порошковое напыление ',
+    outside: 'Порошковое напыление',
     inside: 'Ламинат',
     id: 't-2'
   },
@@ -25,7 +25,7 @@ export const catalogItemsArray = [
     price: 8300,
     description: 'Порошковое напыление + Ламинат',
     productCardTitle: 'Дверь Т-3 (Порошковое покрытие + Ламинат)', 
-    outside: 'Порошковое напыление ',
+    outside: 'Порошковое напыление',
     inside: 'Ламинат',
     id: 't-3'
   },
@@ -35,7 +35,7 @@ export const catalogItemsArray = [
     price: 10400,
     description: 'Порошковое напыление + Ламинат',
     productCardTitle: 'Дверь Т-4 (Порошковое покрытие + Ламинат)', 
-    outside: 'Порошковое напыление ',
+    outside: 'Порошковое напыление',
     inside: 'Ламинат',
     id: 't-4'
   },
@@ -45,7 +45,7 @@ export const catalogItemsArray = [
     price: 17000,
     description: 'Порошковое напыление + МДФ ПВХ',
     productCardTitle: 'Дверь Т-5 (Порошковое напыление + МДФ ПВХ)', 
-    outside: 'Порошковое напыление ',
+    outside: 'Порошковое напыление',
     inside: 'МДФ',
     id: 't-5'
   },
@@ -55,7 +55,7 @@ export const catalogItemsArray = [
     price: 7500,
     description: 'Порошковое напыление + Винилискожа',
     productCardTitle: 'Дверь Т-6 (Порошковое напыление + Винилискожа)', 
-    outside: 'Порошковое напыление ',
+    outside: 'Порошковое напыление',
     inside: 'Винилискожа',
     id: 't-6'
   },
