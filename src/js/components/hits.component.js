@@ -32,36 +32,58 @@ export class HitsComponent extends Component {
   moveSlidesToLeft() {
     this.direction = 'next';
 
-    if (this.slidesWrapper.style.justifyContent === 'flex-end') {
-      this.slidesWrapper.prepend(this.slidesWrapper.lastElementChild)
+    if (this.sliderContainer.style.justifyContent === 'flex-end') {
+      this.slidesWrapper.append(this.slidesWrapper.firstElementChild)
     }
 
-
     this.sliderContainer.style.justifyContent = 'flex-start';
+    this.setSlideMarginRight();
     this.slidesWrapper.style.transform = 'translate(-20%)';
   }
 
   moveSlidesToRight() {
     if (this.direction === 'next' || !this.direction) {
       this.direction = 'prev';
-      this.slidesWrapper.appendChild(this.slidesWrapper.firstElementChild)
+      this.slidesWrapper.prepend(this.slidesWrapper.lastElementChild)
     }
 
     this.sliderContainer.style.justifyContent = 'flex-end';
-    this.slidesWrapper.style.transform = 'translate(20%)';
+    this.setSlideMarginLeft();
+    this.slidesWrapper.style.transform = `translate(20%)`;
+  }
+
+  setSlideMarginLeft() {
+    this.slides.forEach(slide => {
+      slide.style.marginRight = '0';
+      slide.style.marginLeft = '10px';
+    })
+  }
+
+  setSlideMarginRight() {
+    this.slides.forEach(slide => {
+      slide.style.marginLeft = '0';
+      slide.style.marginRight = '10px';
+    })
+  }
+
+  moveSlideToEnd() {
+    if (this.direction === 'prev') {
+      this.slidesWrapper.prepend(this.slidesWrapper.lastElementChild);
+    } else {
+      this.slidesWrapper.append(this.slidesWrapper.firstElementChild);
+    }
   }
 
   changeSlidePosition() {
     this.slidesWrapper.addEventListener('transitionend', (event) => {
-      if (!event.target.classList.contains('hits__description-button'))
-        if (this.direction === 'prev') {
-          this.slidesWrapper.prepend(this.slidesWrapper.lastElementChild);
-        } else {
-          this.slidesWrapper.appendChild(this.slidesWrapper.firstElementChild);
-        }
+
+      if (!event.target.classList.contains('hits__description-button')) {
+        this.moveSlideToEnd()
+      }
 
       this.slidesWrapper.style.transition = 'none';
       this.slidesWrapper.style.transform = 'translate(0)';
+
       setTimeout(() => {
         this.slidesWrapper.style.transition = '0.5s';
       })

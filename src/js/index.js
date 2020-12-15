@@ -30,7 +30,6 @@ import { HitsComponent } from './components/hits.component';
 const header = document.querySelector('.header');
 const footer = document.querySelector('.footer');
 const mainPage = document.querySelector('.main-page');
-const slidesRow = document.querySelector('.hits__slider-row');
 const aboutUsSection = document.querySelector('.about');
 const deliverySection = document.querySelector('.delivery');
 const priceSection = document.querySelector('.price');
@@ -50,7 +49,7 @@ new TopBannerComponent('.banner', '.header__menu-container', headerMenuPages, '.
 new CatalogComponent('.goods-catalog', catalogItems, headerMenuPages, productCardSection);
 new LogoComponent('.header', '.header__menu-container', headerMenuPages, '.header__menu-item');
 new LogoFooterComponent('.footer', '.header__menu-container', headerMenuPages, '.header__menu-item');
-new HitsComponent('.hits', '.goods-catalog', catalogItems, headerMenuPages, productCardSection, slidesRow);
+new HitsComponent('.hits', '.goods-catalog', catalogItems, headerMenuPages, productCardSection);
 
 
 function showCurrentSitePage() {
