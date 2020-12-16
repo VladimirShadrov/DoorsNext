@@ -1,34 +1,32 @@
 import { Component } from '../core/component';
 import { ProductsSorter } from '../core/productsSorter';
 
-export class MainCatalogComponent extends Component {
+export class HeaderCatalogComponent extends Component {
   constructor(className, catalogItems, pages) {
     super(className)
 
     this.catalogItems = catalogItems;
     this.products = new ProductsSorter(catalogItems, pages);
-
   }
 
   init() {
-    this.el.addEventListener('click', goToCatalog.bind(this));
+    this.el.addEventListener('click', goToCatalog.bind(this))
   }
 
-  renderCurrentProducts() {
-    const currentProduct = JSON.parse(sessionStorage.getItem('currentProducts'));
-    this.products.renderCorrectCatalogItems(currentProduct);
+  removeClassActive() {
+    this.el.classList.remove('header__catalog_active');
   }
 }
 
 function goToCatalog(event) {
+  sessionStorage.setItem('currentPage', 'catalog');
   const currentProductId = event.target.dataset.id;
 
-  if (event.target.classList.contains('main-catalog__item-button')) {
-    
-    sessionStorage.setItem('currentPage', 'catalog');
+  if (event.target.classList.contains('header__catalog-item')) {
     const currentProductsArray = this.products.createProductsArray(currentProductId);
     this.products.setProductsArrayToStorage(currentProductsArray);
     this.products.showCatalogPage();
     this.products.renderCorrectCatalogItems(currentProductsArray);
+    this.removeClassActive();
   }
 }

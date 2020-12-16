@@ -43,7 +43,7 @@ export class ProductsSorter {
       page.classList.add('hide');
 
     });
-    
+
     window.scrollTo(0, 0);
     catalogPage.classList.remove('hide')
     catalogPage.style.opacity = 1;
@@ -58,7 +58,9 @@ export class ProductsSorter {
       html = catalogItemCtreator(item)
       catalogWrapper.insertAdjacentHTML('afterbegin', html);
     })
+  }
 
-
+  setProductsArrayToStorage(options) {
+    sessionStorage.setItem('currentProducts', JSON.stringify(options));
   }
 }

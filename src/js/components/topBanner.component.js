@@ -1,12 +1,12 @@
 import { Component } from '../core/component';
-import { HeaderMenuComponent } from '../components/headerMenu.component';
+import { ProductsSorter } from '../core/productsSorter';
 
 export class TopBannerComponent extends Component {
-  constructor(className, container, sitePagesArray, menuComponents) {
-    super(className);
+  constructor(className, catalogItems, pages) {
+    super(className)
 
-    this.navigation = new HeaderMenuComponent(container, sitePagesArray, menuComponents);
-
+    this.catalogItems = catalogItems;
+    this.products = new ProductsSorter(catalogItems, pages);
   }
   
   init() {
@@ -16,9 +16,9 @@ export class TopBannerComponent extends Component {
 
 function catalogBtnClickHandler(event) {
   if (event.target.classList.contains('banner__to-catalog')) {
-    this.navigation.removeActiveClassMenuItems();
-    let currentPage = event.target.dataset.id || '';
-    this.navigation.setCurrentPageToSessionStorage(currentPage);
-    this.navigation.addPageClassActive();
+    sessionStorage.setItem('currentPage', 'catalog');
+    this.products.setProductsArrayToStorage(this.catalogItems);
+    this.products.showCatalogPage();
+    this.products.renderCorrectCatalogItems(this.catalogItems);
   }
 }

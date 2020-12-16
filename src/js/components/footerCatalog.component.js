@@ -18,7 +18,9 @@ function goToCatalog(event) {
   const currentProductId = event.target.dataset.id;
 
   if (event.target.dataset.name === 'catalog-item') {
+    sessionStorage.setItem('currentPage', 'catalog');
     const currentProductsArray = this.products.createProductsArray(currentProductId);
+    this.products.setProductsArrayToStorage(currentProductsArray);
     this.products.showCatalogPage();
     this.products.renderCorrectCatalogItems(currentProductsArray);
   }
