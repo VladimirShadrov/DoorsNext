@@ -46,7 +46,7 @@ export function productCardCreator(product) {
         </p>
       </div>
       <div class="product-card__price-item">
-        <button class="product-card__button">
+        <button class="product-card__button" data-id="order">
           Заказать дверь
         </button>
         <a class="product-card__link-btn" href="#" data-id="catalog">

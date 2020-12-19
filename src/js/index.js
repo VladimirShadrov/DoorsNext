@@ -28,6 +28,7 @@ import { HitsComponent } from './components/hits.component';
 import { MainCatalogComponent } from './components/mainCatalog.component';
 import { FooterCatalogComponent } from './components/footerCatalog.component';
 import { HeaderCatalogComponent } from './components/headerCatalog.component';
+import { ProductCardComponent } from './components/productCard.component';
 
 
 const header = document.querySelector('.header');
@@ -55,7 +56,8 @@ new LogoFooterComponent('.footer', '.header__menu-container', headerMenuPages, '
 new HitsComponent('.hits', '.goods-catalog', catalogItems, headerMenuPages, productCardSection);
 const mainCatalog = new MainCatalogComponent('.main-catalog', catalogItems, headerMenuPages);
 new FooterCatalogComponent('.footer', catalogItems, headerMenuPages);
-new HeaderCatalogComponent('.header__catalog', catalogItems, headerMenuPages)
+new HeaderCatalogComponent('.header__catalog', catalogItems, headerMenuPages);
+new ProductCardComponent('.product-card', catalogItems, headerMenuPages);
 
 
 function showCurrentSitePage() {

@@ -19,7 +19,7 @@ export class Callback {
   openSidePanel() {
     document.body.addEventListener('click', (event) => {
 
-      if (event.target.classList.contains('header__callback') || event.target.classList.contains('callback-btn') || event.target.classList.contains('callback-btn__icon')) {
+      if (event.target.classList.contains('header__callback') || event.target.classList.contains('callback-btn') || event.target.classList.contains('callback-btn__icon') || event.target.dataset.id === 'order') {
         this.showSidePanel();
       }
     })
@@ -52,7 +52,7 @@ export class Callback {
   callMeBackButton() {
     this.callBackPanelBtn.addEventListener('click', () => {
       let resultValidation = this.phoneNumberValidator()
-
+      
       if (resultValidation) {
         this.openModal();
         this.clearInput();
