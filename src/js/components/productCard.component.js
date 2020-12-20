@@ -15,15 +15,27 @@ export class ProductCardComponent extends Component {
     this.el.addEventListener('click', productCardClickHendler.bind(this));
   }
 
-
+  setActiveTab(tabs,id) {
+    tabs.forEach(tab => tab.classList.remove('active'));
+    const activeTab = tabs.find(tab => tab.dataset.id === id);
+    activeTab.classList.add('active');
+  }
+  
+  setActiveTabsContent(tabsContent, id) {
+    tabsContent.forEach(tab => tab.classList.add('hide'));
+    const activeTab = tabsContent.find(tab => tab.dataset.id === id);
+    activeTab.classList.remove('hide');
+  }
+  
+  
 }
 
 function productCardClickHendler(event) {
-
+  
   const tabs = Array.from(this.el.querySelectorAll('.product-card__navigation-item'));
   const tabsContent = Array.from(this.el.querySelectorAll('.product-card__tab'));
-  const id = event.target.parentNode.dataset.id;
-  const activeTab = tabsContent.find(tab => tab.dataset.id === id);
+  const tabsId = event.target.parentNode.dataset.id;
+  const id = event.target.dataset.id;
 
   if (event.target.dataset.id === 'catalog') {
     event.preventDefault();
@@ -34,11 +46,25 @@ function productCardClickHendler(event) {
   }
 
   if (event.target.classList.contains('product-card__navigation-title')) {
+    this.setActiveTab(tabs, tabsId);
+    this.setActiveTabsContent(tabsContent, id);
+  }
 
-    tabs.forEach(tab => tab.classList.remove('active'));
-    event.target.parentNode.classList.add('active');
-    tabsContent.forEach(tab => tab.classList.add('hide'));
-    activeTab.classList.remove('hide');
+  if (event.target.classList.contains('product-card__link')) {
+    event.preventDefault();
+    const tabTitle = this.el.querySelector('.product-card__navigation-container');
+    const coordinates = tabTitle.getBoundingClientRect();
+    const tabCoordinates = coordinates.top + window.pageYOffset;
+
+    window.scrollTo({
+      top: tabCoordinates,
+      left: 0,
+      behavior: 'smooth'
+    })
+
+    this.setActiveTab(tabs, id);
+    this.setActiveTabsContent(tabsContent, id);
+
   }
 }
 
