@@ -222,17 +222,17 @@ export function productCardCreator(product) {
   </div>
 </div>
 <div class="product-card__navigation-container">
-  <div class="product-card__navigation-item active">
+  <div class="product-card__navigation-item active" data-id="property">
     <p class="product-card__navigation-title" data-id="property">
       характеристики
     </p>
   </div>
-  <div class="product-card__navigation-item">
+  <div class="product-card__navigation-item" data-id="colors">
     <p class="product-card__navigation-title" data-id="colors">
       варианты отделки
     </p>
   </div>
-  <div class="product-card__navigation-item">
+  <div class="product-card__navigation-item" data-id="service">
     <p class="product-card__navigation-title" data-id="service">
       дополнительные услуги
     </p>
