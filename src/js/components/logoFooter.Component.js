@@ -14,12 +14,14 @@ export class LogoFooterComponent extends Component {
 }
 
 function logoClickHendler(event) {
-  if (event.target.parentNode.classList.contains('logo') ||
-      event.target.parentNode.classList.contains('footer__item') ||
-      event.target.parentNode.classList.contains('logo__description') ||
-      event.target.parentNode.classList.contains('logo__title')) {
-      sessionStorage.setItem('currentPage', 'main');
-        this.logo.setActiveClassMenuItem();
-        this.logo.addPageClassActive();
+  if (event.target.classList.contains('logo__img') ||
+    event.target.classList.contains('logo') ||
+    event.target.classList.contains('logo__logo') ||
+    event.target.classList.contains('logo__first-word') ||
+    event.target.classList.contains('logo__second-word') ||
+    event.target.classList.contains('logo__description-text')) {
+    sessionStorage.setItem('currentPage', 'main');
+    this.logo.setActiveClassMenuItem();
+    this.logo.addPageClassActive();
   }
 }
