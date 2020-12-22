@@ -12,19 +12,22 @@ export class CatalogComponent extends Component {
     this.catalogItems = catalogItems;
     this.pagesActivator = new Menu(className, sitePagesArray);
     this.productContainer = productContainer;
-   
+
     this.renderCatalogSection();
     this.renderCatalogItems(catalogItems);
     this.renderProductCardSection();
+
+    this.filterTitles = this.el.querySelectorAll('.goods-catalog__filter-title');
+    // console.log(this.filterTitles);
   }
 
 
-  
+
   renderCatalogSection() {
     this.catalogContainer.innerHTML = '';
     this.catalogContainer.insertAdjacentHTML('afterbegin', this.catalogSection);
   }
-  
+
   renderCatalogItems(options) {
     let html;
     this.catalogItemsContainer = this.el.querySelector('.goods-catalog__catalog-container');
@@ -43,18 +46,32 @@ export class CatalogComponent extends Component {
     this.productContainer.firstElementChild.innerHTML = '';
     this.productContainer.firstElementChild.insertAdjacentHTML('afterbegin', productCreator);
   }
-  
+
+
+
   init() {
     this.el.addEventListener('click', catalogItemClickHendler.bind(this));
   }
+
 }
 
 function catalogItemClickHendler(event) {
-
+  
   if (event.target.classList.contains('goods-catalog__item-title')) {
     sessionStorage.setItem('currentProduct', event.target.dataset.id);
     this.pagesActivator.setCurrentPageToSessionStorage('product-card');
     this.pagesActivator.addPageClassActive();
     this.renderProductCardSection();
   }
+  
+  if (event.target.classList.contains('goods-catalog__filter-title')) {
+    event.stopImmediatePropagation();
+    event.target.classList.toggle('active');
+    event.target.nextElementSibling.classList.toggle('hide');
+  }
+
+
+
+  
+
 }
