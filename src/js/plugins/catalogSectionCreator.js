@@ -11,19 +11,19 @@ export function catalogSectionCreator() {
         </span>
         <div class="goods-catalog__form">
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="flat" data-id="flat">
+            <input class="goods-catalog__checkbox-item purpose" type="checkbox" id="flat" data-id="flat">
             <label class="goods-catalog__checkbox-label" for="flat">Квартира</label>
           </div>
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="cottage" data-id="cottage">
+            <input class="goods-catalog__checkbox-item purpose" type="checkbox" id="cottage" data-id="cottage">
             <label class="goods-catalog__checkbox-label" for="cottage">Коттедж</label>
           </div>
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="office" data-id="office">
+            <input class="goods-catalog__checkbox-item purpose" type="checkbox" id="office" data-id="office">
             <label class="goods-catalog__checkbox-label" for="office">Офис</label>
           </div>
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="house" data-id="house">
+            <input class="goods-catalog__checkbox-item purpose" type="checkbox" id="house" data-id="house">
             <label class="goods-catalog__checkbox-label" for="house">Частный дом</label>
           </div>
         </div>
@@ -34,15 +34,15 @@ export function catalogSectionCreator() {
         </span>
         <div class="goods-catalog__form">
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="laminate" data-id="laminate">
+            <input class="goods-catalog__checkbox-item outside" type="checkbox" id="laminate" data-id="Ламинат">
             <label class="goods-catalog__checkbox-label" for="laminate">Ламинат</label>
           </div>
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="mdf" data-id="mdf">
+            <input class="goods-catalog__checkbox-item outside" type="checkbox" id="mdf" data-id="МДФ">
             <label class="goods-catalog__checkbox-label" for="mdf">МДФ</label>
           </div>
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="dust" data-id="dust">
+            <input class="goods-catalog__checkbox-item outside" type="checkbox" id="dust" data-id="Порошковое напыление">
             <label class="goods-catalog__checkbox-label" for="dust">Порошковое напыление</label>
           </div>
         </div>
@@ -53,15 +53,15 @@ export function catalogSectionCreator() {
         </span>
         <div class="goods-catalog__form">
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="vinil" data-id="vinil">
+            <input class="goods-catalog__checkbox-item inside" type="checkbox" id="vinil" data-id="Винилискожа">
             <label class="goods-catalog__checkbox-label" for="vinil">Винилискожа</label>
           </div>
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="lam" data-id="laminate">
+            <input class="goods-catalog__checkbox-item inside" type="checkbox" id="lam" data-id="Ламинат">
             <label class="goods-catalog__checkbox-label" for="lam">Ламинат</label>
           </div>
           <div class="goods-catalog__checkbox">
-            <input class="goods-catalog__checkbox-item" type="checkbox" id="mdff" data-id="mdf">
+            <input class="goods-catalog__checkbox-item inside" type="checkbox" id="mdff" data-id="МДФ">
             <label class="goods-catalog__checkbox-label" for="mdff">МДФ</label>
           </div>
         </div>

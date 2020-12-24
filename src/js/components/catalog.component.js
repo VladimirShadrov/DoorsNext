@@ -18,7 +18,9 @@ export class CatalogComponent extends Component {
     this.renderProductCardSection();
 
     this.filterTitles = this.el.querySelectorAll('.goods-catalog__filter-title');
-    // console.log(this.filterTitles);
+    this.inputPurpose = this.el.querySelectorAll('.purpose');
+    this.inputOutside = this.el.querySelectorAll('.outside');
+    this.inputInside = this.el.querySelectorAll('.inside');
   }
 
 
@@ -47,6 +49,40 @@ export class CatalogComponent extends Component {
     this.productContainer.firstElementChild.insertAdjacentHTML('afterbegin', productCreator);
   }
 
+  checkInputOutside(input, products) {
+    let currentProducts = [];
+    input.forEach(input => {
+      if (input.checked) {
+        currentProducts.push(products.filter(product => product.outside === input.dataset.id));
+      }
+    })
+
+    let result = [].concat(...currentProducts)
+
+    return result;
+  }
+
+  checkInputInside(input, products) {
+    let currentProducts = [];
+    input.forEach(input => {
+      if (input.checked) {
+        currentProducts.push(products.filter(product => product.inside === input.dataset.id));
+      }
+    })
+
+    let result = [].concat(...currentProducts)
+
+    return result;
+  }
+
+  clearInput(options) {
+    options.forEach(item => {
+      if (item.checked) {
+        item.checked = false;
+      }
+    });
+  }
+
 
 
   init() {
@@ -56,22 +92,37 @@ export class CatalogComponent extends Component {
 }
 
 function catalogItemClickHendler(event) {
-  
+
   if (event.target.classList.contains('goods-catalog__item-title')) {
     sessionStorage.setItem('currentProduct', event.target.dataset.id);
     this.pagesActivator.setCurrentPageToSessionStorage('product-card');
     this.pagesActivator.addPageClassActive();
     this.renderProductCardSection();
   }
-  
+
   if (event.target.classList.contains('goods-catalog__filter-title')) {
     event.stopImmediatePropagation();
     event.target.classList.toggle('active');
     event.target.nextElementSibling.classList.toggle('hide');
   }
 
+  if (event.target.classList.contains('goods-catalog__choose')) {
+
+    let outsideTrim = this.checkInputOutside(this.inputOutside, this.catalogItems)
+    let selectedProducts = this.checkInputInside(this.inputInside, outsideTrim = this.catalogItems);
+
+    this.catalogItemsContainer.innerHTML = '';
+    this.renderCatalogItems(selectedProducts);
+  }
+
+  if (event.target.classList.contains('goods-catalog__reset')) {
+    this.clearInput(this.inputPurpose);
+    this.clearInput(this.inputOutside);
+    this.clearInput(this.inputInside);
+  }
 
 
-  
+
+
 
 }
