@@ -50,6 +50,7 @@ export class CatalogComponent extends Component {
   }
 
   checkInputOutside(input, products) {
+
     let currentProducts = [];
     input.forEach(input => {
       if (input.checked) {
@@ -63,6 +64,7 @@ export class CatalogComponent extends Component {
   }
 
   checkInputInside(input, products) {
+
     let currentProducts = [];
     input.forEach(input => {
       if (input.checked) {
@@ -107,10 +109,13 @@ function catalogItemClickHendler(event) {
   }
 
   if (event.target.classList.contains('goods-catalog__choose')) {
+    event.stopImmediatePropagation();
 
-    let outsideTrim = this.checkInputOutside(this.inputOutside, this.catalogItems)
-    let selectedProducts = this.checkInputInside(this.inputInside, outsideTrim = this.catalogItems);
+    let outsideTrim = this.checkInputOutside(this.inputOutside, this.catalogItems);
+    this.catalogItemsContainer.innerHTML = '';
+    this.renderCatalogItems(outsideTrim);
 
+    let selectedProducts = this.checkInputInside(this.inputInside, outsideTrim);
     this.catalogItemsContainer.innerHTML = '';
     this.renderCatalogItems(selectedProducts);
   }
